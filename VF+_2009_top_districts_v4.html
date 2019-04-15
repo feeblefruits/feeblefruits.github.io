@@ -1,0 +1,1205 @@
+<!DOCTYPE html>
+<head>    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <script>L_PREFER_CANVAS=false; L_NO_TOUCH=false; L_DISABLE_3D=false;</script>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.3.4/dist/leaflet.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.3.4/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://rawcdn.githack.com/python-visualization/folium/master/folium/templates/leaflet.awesome.rotate.css"/>
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    
+    <meta name="viewport" content="width=device-width,
+        initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <style>#map_c32b8be7aec74e9e856224ef58b0035a {
+        position: relative;
+        width: 100.0%;
+        height: 100.0%;
+        left: 0.0%;
+        top: 0.0%;
+        }
+    </style>
+</head>
+<body>    
+    
+    <div class="folium-map" id="map_c32b8be7aec74e9e856224ef58b0035a" ></div>
+</body>
+<script>    
+    
+    
+        var bounds = null;
+    
+
+    var map_c32b8be7aec74e9e856224ef58b0035a = L.map(
+        'map_c32b8be7aec74e9e856224ef58b0035a', {
+        center: [-30.5595, 22.9375],
+        zoom: 6,
+        maxBounds: bounds,
+        layers: [],
+        worldCopyJump: false,
+        crs: L.CRS.EPSG3857,
+        zoomControl: true,
+        });
+
+    
+    
+    var tile_layer_e5d2b4888b064b37b5a54cfd1d64e9cb = L.tileLayer(
+        'https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png',
+        {
+        "attribution": null,
+        "detectRetina": false,
+        "maxNativeZoom": 18,
+        "maxZoom": 18,
+        "minZoom": 0,
+        "noWrap": false,
+        "opacity": 1,
+        "subdomains": "abc",
+        "tms": false
+}).addTo(map_c32b8be7aec74e9e856224ef58b0035a);
+    
+
+            var circle_f8648efadcff4fc0829183fe051f73b6 = L.circle(
+                [-34.122257, 22.10858],
+                {
+  "bubblingMouseEvents": true,
+  "color": "crimson",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "crimson",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 3855.0,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_c32b8be7aec74e9e856224ef58b0035a);
+            
+    
+            var popup_a338e9489e764214982544e3162cffcf = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_6d846abe5b664585aba316e66c5a921e = $(`<div id="html_6d846abe5b664585aba316e66c5a921e" style="width: 100.0%; height: 100.0%;">{'Name': 'HARTENBOS BOWLING CLUB', 'Delimitation': {'ProvinceID': 9, 'Province': 'Western Cape', 'MunicipalityID': 9924, 'Municipality': 'WC043 - Mossel Bay [Mossel Bay]', 'WardID': 10403010, 'VDNumber': 97280039}, 'Location': {'Town': 'MOSSEL BAY', 'Suburb': 'HARTENBOS', 'Street': 'RIEMLAND', 'Latitude': '-34.122257', 'Longitude': '22.10858'}}</div>`)[0];
+                popup_a338e9489e764214982544e3162cffcf.setContent(html_6d846abe5b664585aba316e66c5a921e);
+            
+
+            circle_f8648efadcff4fc0829183fe051f73b6.bindPopup(popup_a338e9489e764214982544e3162cffcf)
+            ;
+
+            
+        
+    
+
+            var circle_1875092c85be4b5eb3567fe107e9b808 = L.circle(
+                [-34.122257, 22.10858],
+                {
+  "bubblingMouseEvents": true,
+  "color": "crimson",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "crimson",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 3855.0,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_c32b8be7aec74e9e856224ef58b0035a);
+            
+    
+            var popup_b18cf672c9ee43d18bb02d9b586716bd = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_578f9e19f722428899aa1ed13599d233 = $(`<div id="html_578f9e19f722428899aa1ed13599d233" style="width: 100.0%; height: 100.0%;">{'Name': 'HARTENBOS BOWLING CLUB', 'Delimitation': {'ProvinceID': 9, 'Province': 'Western Cape', 'MunicipalityID': 9924, 'Municipality': 'WC043 - Mossel Bay [Mossel Bay]', 'WardID': 10403010, 'VDNumber': 97280039}, 'Location': {'Town': 'MOSSEL BAY', 'Suburb': 'HARTENBOS', 'Street': 'RIEMLAND', 'Latitude': '-34.122257', 'Longitude': '22.10858'}}</div>`)[0];
+                popup_b18cf672c9ee43d18bb02d9b586716bd.setContent(html_578f9e19f722428899aa1ed13599d233);
+            
+
+            circle_1875092c85be4b5eb3567fe107e9b808.bindPopup(popup_b18cf672c9ee43d18bb02d9b586716bd)
+            ;
+
+            
+        
+    
+
+            var circle_e943c9c44b1946ab8f4c6a81d0d92f6c = L.circle(
+                [-34.075894, 22.169085],
+                {
+  "bubblingMouseEvents": true,
+  "color": "crimson",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "crimson",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 3450.0,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_c32b8be7aec74e9e856224ef58b0035a);
+            
+    
+            var popup_9b9e5a1d6c494843be66e01f9c225042 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_a26d2c374e124a658e42eb46a04cee80 = $(`<div id="html_a26d2c374e124a658e42eb46a04cee80" style="width: 100.0%; height: 100.0%;">{'Name': 'RHEEBOK COMMUNITY HALL', 'Delimitation': {'ProvinceID': 9, 'Province': 'Western Cape', 'MunicipalityID': 9924, 'Municipality': 'WC043 - Mossel Bay [Mossel Bay]', 'WardID': 10403005, 'VDNumber': 97280129}, 'Location': {'Town': 'MOSSEL BAY', 'Suburb': 'RHEEBOK', 'Street': 'CNR OF KUDU & DE JAAGER ST', 'Latitude': '-34.075894', 'Longitude': '22.169085'}}</div>`)[0];
+                popup_9b9e5a1d6c494843be66e01f9c225042.setContent(html_a26d2c374e124a658e42eb46a04cee80);
+            
+
+            circle_e943c9c44b1946ab8f4c6a81d0d92f6c.bindPopup(popup_9b9e5a1d6c494843be66e01f9c225042)
+            ;
+
+            
+        
+    
+
+            var circle_b4e1368ea9f44ecc83f05e7c63d4ce35 = L.circle(
+                [-34.075894, 22.169085],
+                {
+  "bubblingMouseEvents": true,
+  "color": "crimson",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "crimson",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 3450.0,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_c32b8be7aec74e9e856224ef58b0035a);
+            
+    
+            var popup_88374941d86241d4b986f73b285da9eb = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_e79ea594e8074d7f8bc3c1b0142a0a6a = $(`<div id="html_e79ea594e8074d7f8bc3c1b0142a0a6a" style="width: 100.0%; height: 100.0%;">{'Name': 'RHEEBOK COMMUNITY HALL', 'Delimitation': {'ProvinceID': 9, 'Province': 'Western Cape', 'MunicipalityID': 9924, 'Municipality': 'WC043 - Mossel Bay [Mossel Bay]', 'WardID': 10403005, 'VDNumber': 97280129}, 'Location': {'Town': 'MOSSEL BAY', 'Suburb': 'RHEEBOK', 'Street': 'CNR OF KUDU & DE JAAGER ST', 'Latitude': '-34.075894', 'Longitude': '22.169085'}}</div>`)[0];
+                popup_88374941d86241d4b986f73b285da9eb.setContent(html_e79ea594e8074d7f8bc3c1b0142a0a6a);
+            
+
+            circle_b4e1368ea9f44ecc83f05e7c63d4ce35.bindPopup(popup_88374941d86241d4b986f73b285da9eb)
+            ;
+
+            
+        
+    
+
+            var circle_3fd89443e50546d08004566cacd010aa = L.circle(
+                [-34.19015, 22.121229999999997],
+                {
+  "bubblingMouseEvents": true,
+  "color": "crimson",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "crimson",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 2070.0,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_c32b8be7aec74e9e856224ef58b0035a);
+            
+    
+            var popup_576c95bd8ed54627935da71425efe532 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_4574b2cd2033451eab84bb195daa8c35 = $(`<div id="html_4574b2cd2033451eab84bb195daa8c35" style="width: 100.0%; height: 100.0%;">{'Name': 'VOORTREKKERSAAL MOSSEL BAY', 'Delimitation': {'ProvinceID': 9, 'Province': 'Western Cape', 'MunicipalityID': 9924, 'Municipality': 'WC043 - Mossel Bay [Mossel Bay]', 'WardID': 10403006, 'VDNumber': 97280084}, 'Location': {'Town': 'MOSSEL BAY', 'Suburb': 'HEIDERAND', 'Street': 'SCHOEMANSTRAAT', 'Latitude': '-34.19015', 'Longitude': '22.12123'}}</div>`)[0];
+                popup_576c95bd8ed54627935da71425efe532.setContent(html_4574b2cd2033451eab84bb195daa8c35);
+            
+
+            circle_3fd89443e50546d08004566cacd010aa.bindPopup(popup_576c95bd8ed54627935da71425efe532)
+            ;
+
+            
+        
+    
+
+            var circle_12ac8d29713244a081597e7ba502affe = L.circle(
+                [-34.19015, 22.121229999999997],
+                {
+  "bubblingMouseEvents": true,
+  "color": "crimson",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "crimson",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 2070.0,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_c32b8be7aec74e9e856224ef58b0035a);
+            
+    
+            var popup_9d2ae2449df14dd6835c8e70a6ecd398 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_2c1e8076c7614791a92f20a59de16885 = $(`<div id="html_2c1e8076c7614791a92f20a59de16885" style="width: 100.0%; height: 100.0%;">{'Name': 'VOORTREKKERSAAL MOSSEL BAY', 'Delimitation': {'ProvinceID': 9, 'Province': 'Western Cape', 'MunicipalityID': 9924, 'Municipality': 'WC043 - Mossel Bay [Mossel Bay]', 'WardID': 10403006, 'VDNumber': 97280084}, 'Location': {'Town': 'MOSSEL BAY', 'Suburb': 'HEIDERAND', 'Street': 'SCHOEMANSTRAAT', 'Latitude': '-34.19015', 'Longitude': '22.12123'}}</div>`)[0];
+                popup_9d2ae2449df14dd6835c8e70a6ecd398.setContent(html_2c1e8076c7614791a92f20a59de16885);
+            
+
+            circle_12ac8d29713244a081597e7ba502affe.bindPopup(popup_9d2ae2449df14dd6835c8e70a6ecd398)
+            ;
+
+            
+        
+    
+
+            var circle_eeb3d2b79b384b1f89b58c6e92543e1e = L.circle(
+                [-34.122257, 22.10858],
+                {
+  "bubblingMouseEvents": true,
+  "color": "crimson",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "crimson",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 1950.0,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_c32b8be7aec74e9e856224ef58b0035a);
+            
+    
+            var popup_39c19bde6b744d2580be3efebd1d829d = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_46df113bf7f347349863b133d7e2da04 = $(`<div id="html_46df113bf7f347349863b133d7e2da04" style="width: 100.0%; height: 100.0%;">{'Name': 'HARTENBOS BOWLING CLUB', 'Delimitation': {'ProvinceID': 9, 'Province': 'Western Cape', 'MunicipalityID': 9924, 'Municipality': 'WC043 - Mossel Bay [Mossel Bay]', 'WardID': 10403010, 'VDNumber': 97280039}, 'Location': {'Town': 'MOSSEL BAY', 'Suburb': 'HARTENBOS', 'Street': 'RIEMLAND', 'Latitude': '-34.122257', 'Longitude': '22.10858'}}</div>`)[0];
+                popup_39c19bde6b744d2580be3efebd1d829d.setContent(html_46df113bf7f347349863b133d7e2da04);
+            
+
+            circle_eeb3d2b79b384b1f89b58c6e92543e1e.bindPopup(popup_39c19bde6b744d2580be3efebd1d829d)
+            ;
+
+            
+        
+    
+
+            var circle_1df26ba16ef441aa905baeba548bb9e9 = L.circle(
+                [-34.122257, 22.10858],
+                {
+  "bubblingMouseEvents": true,
+  "color": "crimson",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "crimson",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 1950.0,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_c32b8be7aec74e9e856224ef58b0035a);
+            
+    
+            var popup_c956c7cce5534a85ac5b3760dd33b521 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_56448f27343044f990d6e76c37127a3c = $(`<div id="html_56448f27343044f990d6e76c37127a3c" style="width: 100.0%; height: 100.0%;">{'Name': 'HARTENBOS BOWLING CLUB', 'Delimitation': {'ProvinceID': 9, 'Province': 'Western Cape', 'MunicipalityID': 9924, 'Municipality': 'WC043 - Mossel Bay [Mossel Bay]', 'WardID': 10403010, 'VDNumber': 97280039}, 'Location': {'Town': 'MOSSEL BAY', 'Suburb': 'HARTENBOS', 'Street': 'RIEMLAND', 'Latitude': '-34.122257', 'Longitude': '22.10858'}}</div>`)[0];
+                popup_c956c7cce5534a85ac5b3760dd33b521.setContent(html_56448f27343044f990d6e76c37127a3c);
+            
+
+            circle_1df26ba16ef441aa905baeba548bb9e9.bindPopup(popup_c956c7cce5534a85ac5b3760dd33b521)
+            ;
+
+            
+        
+    
+
+            var circle_cfef03a6ad5a4718857ac053db20ef0e = L.circle(
+                [-34.039799, 22.221629],
+                {
+  "bubblingMouseEvents": true,
+  "color": "crimson",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "crimson",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 1710.0,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_c32b8be7aec74e9e856224ef58b0035a);
+            
+    
+            var popup_0fe21ff3180f4a658ba47873c202e217 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_0a0aeca2be344a83bd98d0c0767198d0 = $(`<div id="html_0a0aeca2be344a83bd98d0c0767198d0" style="width: 100.0%; height: 100.0%;">{'Name': 'GREATBRAK MUNICIPALITY', 'Delimitation': {'ProvinceID': 9, 'Province': 'Western Cape', 'MunicipalityID': 9924, 'Municipality': 'WC043 - Mossel Bay [Mossel Bay]', 'WardID': 10403005, 'VDNumber': 97230012}, 'Location': {'Town': 'GREAT BRAKRIVER', 'Suburb': 'GREAT BRAK RIVER', 'Street': 'CHARLES STREET', 'Latitude': '-34.039799', 'Longitude': '22.221629'}}</div>`)[0];
+                popup_0fe21ff3180f4a658ba47873c202e217.setContent(html_0a0aeca2be344a83bd98d0c0767198d0);
+            
+
+            circle_cfef03a6ad5a4718857ac053db20ef0e.bindPopup(popup_0fe21ff3180f4a658ba47873c202e217)
+            ;
+
+            
+        
+    
+
+            var circle_aa6de0ec6b9d4682b647384a55d8237b = L.circle(
+                [-34.194027, 22.045297],
+                {
+  "bubblingMouseEvents": true,
+  "color": "crimson",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "crimson",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 1710.0,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_c32b8be7aec74e9e856224ef58b0035a);
+            
+    
+            var popup_2b54f52a3d2644b5a838e9403beaea75 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_555ab92cd2c747119966c9296aa834c6 = $(`<div id="html_555ab92cd2c747119966c9296aa834c6" style="width: 100.0%; height: 100.0%;">{'Name': 'DANABAAI COMMUNITY HALL', 'Delimitation': {'ProvinceID': 9, 'Province': 'Western Cape', 'MunicipalityID': 9924, 'Municipality': 'WC043 - Mossel Bay [Mossel Bay]', 'WardID': 10403011, 'VDNumber': 97280107}, 'Location': {'Town': 'MOSSELBAY', 'Suburb': 'DANABAAI', 'Street': 'A COMOSA', 'Latitude': '-34.194027', 'Longitude': '22.045297'}}</div>`)[0];
+                popup_2b54f52a3d2644b5a838e9403beaea75.setContent(html_555ab92cd2c747119966c9296aa834c6);
+            
+
+            circle_aa6de0ec6b9d4682b647384a55d8237b.bindPopup(popup_2b54f52a3d2644b5a838e9403beaea75)
+            ;
+
+            
+        
+    
+
+            var circle_2bf6160916f74ab4a1be860eb675a2f3 = L.circle(
+                [-29.81317, 24.41413],
+                {
+  "bubblingMouseEvents": true,
+  "color": "crimson",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "crimson",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 3630.0,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_c32b8be7aec74e9e856224ef58b0035a);
+            
+    
+            var popup_daaff4f4c89f4067bfcfbd416970a3d0 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_695c34aabd5d4033855038fa56ff1cab = $(`<div id="html_695c34aabd5d4033855038fa56ff1cab" style="width: 100.0%; height: 100.0%;">{'Name': 'ORANIA VOLKSKOOL', 'Delimitation': {'ProvinceID': 6, 'Province': 'Northern Cape', 'MunicipalityID': 6615, 'Municipality': 'NC076 - THEMBELIHLE [Hopetown]', 'WardID': 30706002, 'VDNumber': 65320017}, 'Location': {'Town': 'ORANIA', 'Suburb': 'ORANIA', 'Street': '151 SMARAG', 'Latitude': '-29.81317', 'Longitude': '24.41413'}}</div>`)[0];
+                popup_daaff4f4c89f4067bfcfbd416970a3d0.setContent(html_695c34aabd5d4033855038fa56ff1cab);
+            
+
+            circle_2bf6160916f74ab4a1be860eb675a2f3.bindPopup(popup_daaff4f4c89f4067bfcfbd416970a3d0)
+            ;
+
+            
+        
+    
+
+            var circle_2ba557aa227f46e8809a2a1a6cb53f73 = L.circle(
+                [-29.81317, 24.41413],
+                {
+  "bubblingMouseEvents": true,
+  "color": "crimson",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "crimson",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 3630.0,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_c32b8be7aec74e9e856224ef58b0035a);
+            
+    
+            var popup_8e2299783d3d414184df113a3acae64e = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_76e4faef60e24b3f9e88e8964e1192cf = $(`<div id="html_76e4faef60e24b3f9e88e8964e1192cf" style="width: 100.0%; height: 100.0%;">{'Name': 'ORANIA VOLKSKOOL', 'Delimitation': {'ProvinceID': 6, 'Province': 'Northern Cape', 'MunicipalityID': 6615, 'Municipality': 'NC076 - THEMBELIHLE [Hopetown]', 'WardID': 30706002, 'VDNumber': 65320017}, 'Location': {'Town': 'ORANIA', 'Suburb': 'ORANIA', 'Street': '151 SMARAG', 'Latitude': '-29.81317', 'Longitude': '24.41413'}}</div>`)[0];
+                popup_8e2299783d3d414184df113a3acae64e.setContent(html_76e4faef60e24b3f9e88e8964e1192cf);
+            
+
+            circle_2ba557aa227f46e8809a2a1a6cb53f73.bindPopup(popup_8e2299783d3d414184df113a3acae64e)
+            ;
+
+            
+        
+    
+
+            var circle_1ef6fd192bb14ec58cd81fd6ab0f23bb = L.circle(
+                [-29.81317, 24.41413],
+                {
+  "bubblingMouseEvents": true,
+  "color": "crimson",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "crimson",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 3465.0,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_c32b8be7aec74e9e856224ef58b0035a);
+            
+    
+            var popup_019b7c54e46346698f5e497af1203bb0 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_0e65e9784f884ef2b3faa64c91897c3c = $(`<div id="html_0e65e9784f884ef2b3faa64c91897c3c" style="width: 100.0%; height: 100.0%;">{'Name': 'ORANIA VOLKSKOOL', 'Delimitation': {'ProvinceID': 6, 'Province': 'Northern Cape', 'MunicipalityID': 6615, 'Municipality': 'NC076 - THEMBELIHLE [Hopetown]', 'WardID': 30706002, 'VDNumber': 65320017}, 'Location': {'Town': 'ORANIA', 'Suburb': 'ORANIA', 'Street': '151 SMARAG', 'Latitude': '-29.81317', 'Longitude': '24.41413'}}</div>`)[0];
+                popup_019b7c54e46346698f5e497af1203bb0.setContent(html_0e65e9784f884ef2b3faa64c91897c3c);
+            
+
+            circle_1ef6fd192bb14ec58cd81fd6ab0f23bb.bindPopup(popup_019b7c54e46346698f5e497af1203bb0)
+            ;
+
+            
+        
+    
+
+            var circle_3cd83b56922d414d8d337811891c3449 = L.circle(
+                [-29.81317, 24.41413],
+                {
+  "bubblingMouseEvents": true,
+  "color": "crimson",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "crimson",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 3465.0,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_c32b8be7aec74e9e856224ef58b0035a);
+            
+    
+            var popup_ead530b504844b029423728442318a6c = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_d8026b772227406185f59598669c85a3 = $(`<div id="html_d8026b772227406185f59598669c85a3" style="width: 100.0%; height: 100.0%;">{'Name': 'ORANIA VOLKSKOOL', 'Delimitation': {'ProvinceID': 6, 'Province': 'Northern Cape', 'MunicipalityID': 6615, 'Municipality': 'NC076 - THEMBELIHLE [Hopetown]', 'WardID': 30706002, 'VDNumber': 65320017}, 'Location': {'Town': 'ORANIA', 'Suburb': 'ORANIA', 'Street': '151 SMARAG', 'Latitude': '-29.81317', 'Longitude': '24.41413'}}</div>`)[0];
+                popup_ead530b504844b029423728442318a6c.setContent(html_d8026b772227406185f59598669c85a3);
+            
+
+            circle_3cd83b56922d414d8d337811891c3449.bindPopup(popup_ead530b504844b029423728442318a6c)
+            ;
+
+            
+        
+    
+
+            var circle_46d04a376d534635a4449c015b346d9f = L.circle(
+                [-29.622619, 24.090277],
+                {
+  "bubblingMouseEvents": true,
+  "color": "crimson",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "crimson",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 840.0,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_c32b8be7aec74e9e856224ef58b0035a);
+            
+    
+            var popup_b7de440f8f504c49bab118fabc019145 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_2900b124062d4ff3b6e23e1ffb8f3692 = $(`<div id="html_2900b124062d4ff3b6e23e1ffb8f3692" style="width: 100.0%; height: 100.0%;">{'Name': 'MSC NUWE BIBLIOTEEKSAAL', 'Delimitation': {'ProvinceID': 6, 'Province': 'Northern Cape', 'MunicipalityID': 6615, 'Municipality': 'NC076 - THEMBELIHLE [Hopetown]', 'WardID': 30706002, 'VDNumber': 65160020}, 'Location': {'Town': 'HOPETOWN', 'Suburb': 'HOPETOWN', 'Street': 'HOSPITAAL STRAAT', 'Latitude': '-29.622619', 'Longitude': '24.090277'}}</div>`)[0];
+                popup_b7de440f8f504c49bab118fabc019145.setContent(html_2900b124062d4ff3b6e23e1ffb8f3692);
+            
+
+            circle_46d04a376d534635a4449c015b346d9f.bindPopup(popup_b7de440f8f504c49bab118fabc019145)
+            ;
+
+            
+        
+    
+
+            var circle_586964b3ac0e4e259b128037ee4e6345 = L.circle(
+                [-29.622619, 24.090277],
+                {
+  "bubblingMouseEvents": true,
+  "color": "crimson",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "crimson",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 840.0,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_c32b8be7aec74e9e856224ef58b0035a);
+            
+    
+            var popup_49676dffb6ff49fdb038cedbd4536651 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_797681acf2b74db08e9f7812324109f3 = $(`<div id="html_797681acf2b74db08e9f7812324109f3" style="width: 100.0%; height: 100.0%;">{'Name': 'MSC NUWE BIBLIOTEEKSAAL', 'Delimitation': {'ProvinceID': 6, 'Province': 'Northern Cape', 'MunicipalityID': 6615, 'Municipality': 'NC076 - THEMBELIHLE [Hopetown]', 'WardID': 30706002, 'VDNumber': 65160020}, 'Location': {'Town': 'HOPETOWN', 'Suburb': 'HOPETOWN', 'Street': 'HOSPITAAL STRAAT', 'Latitude': '-29.622619', 'Longitude': '24.090277'}}</div>`)[0];
+                popup_49676dffb6ff49fdb038cedbd4536651.setContent(html_797681acf2b74db08e9f7812324109f3);
+            
+
+            circle_586964b3ac0e4e259b128037ee4e6345.bindPopup(popup_49676dffb6ff49fdb038cedbd4536651)
+            ;
+
+            
+        
+    
+
+            var circle_efd0d4408bf9476392c11b360ce92cfc = L.circle(
+                [-29.622619, 24.090277],
+                {
+  "bubblingMouseEvents": true,
+  "color": "crimson",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "crimson",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 675.0,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_c32b8be7aec74e9e856224ef58b0035a);
+            
+    
+            var popup_62346ef39d4f4d48a0646e95a4c05e2b = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_c62c6bfd42b047928963d8685f3b1a8e = $(`<div id="html_c62c6bfd42b047928963d8685f3b1a8e" style="width: 100.0%; height: 100.0%;">{'Name': 'MSC NUWE BIBLIOTEEKSAAL', 'Delimitation': {'ProvinceID': 6, 'Province': 'Northern Cape', 'MunicipalityID': 6615, 'Municipality': 'NC076 - THEMBELIHLE [Hopetown]', 'WardID': 30706002, 'VDNumber': 65160020}, 'Location': {'Town': 'HOPETOWN', 'Suburb': 'HOPETOWN', 'Street': 'HOSPITAAL STRAAT', 'Latitude': '-29.622619', 'Longitude': '24.090277'}}</div>`)[0];
+                popup_62346ef39d4f4d48a0646e95a4c05e2b.setContent(html_c62c6bfd42b047928963d8685f3b1a8e);
+            
+
+            circle_efd0d4408bf9476392c11b360ce92cfc.bindPopup(popup_62346ef39d4f4d48a0646e95a4c05e2b)
+            ;
+
+            
+        
+    
+
+            var circle_a502baf6824a475ebd02e1459138a32d = L.circle(
+                [-29.622619, 24.090277],
+                {
+  "bubblingMouseEvents": true,
+  "color": "crimson",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "crimson",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 675.0,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_c32b8be7aec74e9e856224ef58b0035a);
+            
+    
+            var popup_dc632cdc6c5847a593a1b304e2e389d6 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_c8cc50856b7c4defa27ad943f5910ef5 = $(`<div id="html_c8cc50856b7c4defa27ad943f5910ef5" style="width: 100.0%; height: 100.0%;">{'Name': 'MSC NUWE BIBLIOTEEKSAAL', 'Delimitation': {'ProvinceID': 6, 'Province': 'Northern Cape', 'MunicipalityID': 6615, 'Municipality': 'NC076 - THEMBELIHLE [Hopetown]', 'WardID': 30706002, 'VDNumber': 65160020}, 'Location': {'Town': 'HOPETOWN', 'Suburb': 'HOPETOWN', 'Street': 'HOSPITAAL STRAAT', 'Latitude': '-29.622619', 'Longitude': '24.090277'}}</div>`)[0];
+                popup_dc632cdc6c5847a593a1b304e2e389d6.setContent(html_c8cc50856b7c4defa27ad943f5910ef5);
+            
+
+            circle_a502baf6824a475ebd02e1459138a32d.bindPopup(popup_dc632cdc6c5847a593a1b304e2e389d6)
+            ;
+
+            
+        
+    
+
+            var circle_bcd9ba8dda984ed2a26dd74fbf6aade7 = L.circle(
+                [-29.942965, 23.667199],
+                {
+  "bubblingMouseEvents": true,
+  "color": "crimson",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "crimson",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 405.0,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_c32b8be7aec74e9e856224ef58b0035a);
+            
+    
+            var popup_e7060f324b7347f38c2db005814953aa = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_ab5f54e374c84bcca820b6a11a87d674 = $(`<div id="html_ab5f54e374c84bcca820b6a11a87d674" style="width: 100.0%; height: 100.0%;">{'Name': 'DR ESSOP COMMUNITY HALL', 'Delimitation': {'ProvinceID': 6, 'Province': 'Northern Cape', 'MunicipalityID': 6615, 'Municipality': 'NC076 - THEMBELIHLE [Hopetown]', 'WardID': 30706001, 'VDNumber': 65240018}, 'Location': {'Town': 'STRYDENBURG', 'Suburb': 'DEETLEFSVILLE', 'Street': '369 CUPIDO STREET', 'Latitude': '-29.942965', 'Longitude': '23.667199'}}</div>`)[0];
+                popup_e7060f324b7347f38c2db005814953aa.setContent(html_ab5f54e374c84bcca820b6a11a87d674);
+            
+
+            circle_bcd9ba8dda984ed2a26dd74fbf6aade7.bindPopup(popup_e7060f324b7347f38c2db005814953aa)
+            ;
+
+            
+        
+    
+
+            var circle_a1d49dd53ec64c18ad221a522541025c = L.circle(
+                [-29.942965, 23.667199],
+                {
+  "bubblingMouseEvents": true,
+  "color": "crimson",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "crimson",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 405.0,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_c32b8be7aec74e9e856224ef58b0035a);
+            
+    
+            var popup_152582c33c9444c197dc9469e5db163c = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_d41f916562384128831ca6f25ae93a78 = $(`<div id="html_d41f916562384128831ca6f25ae93a78" style="width: 100.0%; height: 100.0%;">{'Name': 'DR ESSOP COMMUNITY HALL', 'Delimitation': {'ProvinceID': 6, 'Province': 'Northern Cape', 'MunicipalityID': 6615, 'Municipality': 'NC076 - THEMBELIHLE [Hopetown]', 'WardID': 30706001, 'VDNumber': 65240018}, 'Location': {'Town': 'STRYDENBURG', 'Suburb': 'DEETLEFSVILLE', 'Street': '369 CUPIDO STREET', 'Latitude': '-29.942965', 'Longitude': '23.667199'}}</div>`)[0];
+                popup_152582c33c9444c197dc9469e5db163c.setContent(html_d41f916562384128831ca6f25ae93a78);
+            
+
+            circle_a1d49dd53ec64c18ad221a522541025c.bindPopup(popup_152582c33c9444c197dc9469e5db163c)
+            ;
+
+            
+        
+    
+
+            var circle_9f7bd38e6adf479d93c55d45565faf3c = L.circle(
+                [-25.739511, 28.530790999999997],
+                {
+  "bubblingMouseEvents": true,
+  "color": "crimson",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "crimson",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 3030.0,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_c32b8be7aec74e9e856224ef58b0035a);
+            
+    
+            var popup_561a16ff822542888aabab3df8f60f0f = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_a25fbce177cf442b80e7aad0a3e84b5a = $(`<div id="html_a25fbce177cf442b80e7aad0a3e84b5a" style="width: 100.0%; height: 100.0%;">{'Name': 'RAYTON COMMUNITY HALL', 'Delimitation': {'ProvinceID': 3, 'Province': 'Gauteng', 'MunicipalityID': 3004, 'Municipality': 'TSH - Tshwane Metro [Pretoria]', 'WardID': 79900100, 'VDNumber': 33050056}, 'Location': {'Town': 'CULLINAN', 'Suburb': 'RAYTON', 'Street': '204 CNR OAKELY & MONTROSE STREET', 'Latitude': '-25.739511', 'Longitude': '28.530791'}}</div>`)[0];
+                popup_561a16ff822542888aabab3df8f60f0f.setContent(html_a25fbce177cf442b80e7aad0a3e84b5a);
+            
+
+            circle_9f7bd38e6adf479d93c55d45565faf3c.bindPopup(popup_561a16ff822542888aabab3df8f60f0f)
+            ;
+
+            
+        
+    
+
+            var circle_49acd00ae7db43659589b0e9d6352dcc = L.circle(
+                [-25.739511, 28.530790999999997],
+                {
+  "bubblingMouseEvents": true,
+  "color": "crimson",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "crimson",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 3030.0,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_c32b8be7aec74e9e856224ef58b0035a);
+            
+    
+            var popup_4453b51f7e3e47939e2e4ef2801412da = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_8c68c4a90b8149068a4d9fa1036b3bc5 = $(`<div id="html_8c68c4a90b8149068a4d9fa1036b3bc5" style="width: 100.0%; height: 100.0%;">{'Name': 'RAYTON COMMUNITY HALL', 'Delimitation': {'ProvinceID': 3, 'Province': 'Gauteng', 'MunicipalityID': 3004, 'Municipality': 'TSH - Tshwane Metro [Pretoria]', 'WardID': 79900100, 'VDNumber': 33050056}, 'Location': {'Town': 'CULLINAN', 'Suburb': 'RAYTON', 'Street': '204 CNR OAKELY & MONTROSE STREET', 'Latitude': '-25.739511', 'Longitude': '28.530791'}}</div>`)[0];
+                popup_4453b51f7e3e47939e2e4ef2801412da.setContent(html_8c68c4a90b8149068a4d9fa1036b3bc5);
+            
+
+            circle_49acd00ae7db43659589b0e9d6352dcc.bindPopup(popup_4453b51f7e3e47939e2e4ef2801412da)
+            ;
+
+            
+        
+    
+
+            var circle_22bad3bedf9c4322897a37d2a4410157 = L.circle(
+                [-25.739511, 28.530790999999997],
+                {
+  "bubblingMouseEvents": true,
+  "color": "crimson",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "crimson",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 2730.0,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_c32b8be7aec74e9e856224ef58b0035a);
+            
+    
+            var popup_daa83b2ca011450d826b88c4941020fe = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_84d497c9267e4eab97c754f02b9260f0 = $(`<div id="html_84d497c9267e4eab97c754f02b9260f0" style="width: 100.0%; height: 100.0%;">{'Name': 'RAYTON COMMUNITY HALL', 'Delimitation': {'ProvinceID': 3, 'Province': 'Gauteng', 'MunicipalityID': 3004, 'Municipality': 'TSH - Tshwane Metro [Pretoria]', 'WardID': 79900100, 'VDNumber': 33050056}, 'Location': {'Town': 'CULLINAN', 'Suburb': 'RAYTON', 'Street': '204 CNR OAKELY & MONTROSE STREET', 'Latitude': '-25.739511', 'Longitude': '28.530791'}}</div>`)[0];
+                popup_daa83b2ca011450d826b88c4941020fe.setContent(html_84d497c9267e4eab97c754f02b9260f0);
+            
+
+            circle_22bad3bedf9c4322897a37d2a4410157.bindPopup(popup_daa83b2ca011450d826b88c4941020fe)
+            ;
+
+            
+        
+    
+
+            var circle_e96e3117612e4e46af39aa985547ec12 = L.circle(
+                [-25.739511, 28.530790999999997],
+                {
+  "bubblingMouseEvents": true,
+  "color": "crimson",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "crimson",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 2730.0,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_c32b8be7aec74e9e856224ef58b0035a);
+            
+    
+            var popup_226352eabf5a4f9fb6a0242e0d6ea68a = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_d21e9bd557bc4ff1ac74f371910fcc88 = $(`<div id="html_d21e9bd557bc4ff1ac74f371910fcc88" style="width: 100.0%; height: 100.0%;">{'Name': 'RAYTON COMMUNITY HALL', 'Delimitation': {'ProvinceID': 3, 'Province': 'Gauteng', 'MunicipalityID': 3004, 'Municipality': 'TSH - Tshwane Metro [Pretoria]', 'WardID': 79900100, 'VDNumber': 33050056}, 'Location': {'Town': 'CULLINAN', 'Suburb': 'RAYTON', 'Street': '204 CNR OAKELY & MONTROSE STREET', 'Latitude': '-25.739511', 'Longitude': '28.530791'}}</div>`)[0];
+                popup_226352eabf5a4f9fb6a0242e0d6ea68a.setContent(html_d21e9bd557bc4ff1ac74f371910fcc88);
+            
+
+            circle_e96e3117612e4e46af39aa985547ec12.bindPopup(popup_226352eabf5a4f9fb6a0242e0d6ea68a)
+            ;
+
+            
+        
+    
+
+            var circle_991a2ed58ee440a6b7d78ed018cfdcc6 = L.circle(
+                [-25.6781, 28.5233],
+                {
+  "bubblingMouseEvents": true,
+  "color": "crimson",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "crimson",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 2025.0,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_c32b8be7aec74e9e856224ef58b0035a);
+            
+    
+            var popup_700a417fe4844f6f9fc162a4bc53c2b5 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_123a512570884cb88017f8d8ca7e08c8 = $(`<div id="html_123a512570884cb88017f8d8ca7e08c8" style="width: 100.0%; height: 100.0%;">{'Name': 'CULLINAN COMBINE SCHOOL', 'Delimitation': {'ProvinceID': 3, 'Province': 'Gauteng', 'MunicipalityID': 3004, 'Municipality': 'TSH - Tshwane Metro [Pretoria]', 'WardID': 79900100, 'VDNumber': 33050045}, 'Location': {'Town': 'CULLINAN', 'Suburb': 'TSHWANE', 'Street': 'CRESENT STREET', 'Latitude': '-25.6781', 'Longitude': '28.5233'}}</div>`)[0];
+                popup_700a417fe4844f6f9fc162a4bc53c2b5.setContent(html_123a512570884cb88017f8d8ca7e08c8);
+            
+
+            circle_991a2ed58ee440a6b7d78ed018cfdcc6.bindPopup(popup_700a417fe4844f6f9fc162a4bc53c2b5)
+            ;
+
+            
+        
+    
+
+            var circle_631377af1fde4fcea4dd1051e8332117 = L.circle(
+                [-25.6781, 28.5233],
+                {
+  "bubblingMouseEvents": true,
+  "color": "crimson",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "crimson",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 2025.0,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_c32b8be7aec74e9e856224ef58b0035a);
+            
+    
+            var popup_74568bb06cdd4677815879ccb0a1a9e2 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_1a966e69c66c42749360646f7e310f84 = $(`<div id="html_1a966e69c66c42749360646f7e310f84" style="width: 100.0%; height: 100.0%;">{'Name': 'CULLINAN COMBINE SCHOOL', 'Delimitation': {'ProvinceID': 3, 'Province': 'Gauteng', 'MunicipalityID': 3004, 'Municipality': 'TSH - Tshwane Metro [Pretoria]', 'WardID': 79900100, 'VDNumber': 33050045}, 'Location': {'Town': 'CULLINAN', 'Suburb': 'TSHWANE', 'Street': 'CRESENT STREET', 'Latitude': '-25.6781', 'Longitude': '28.5233'}}</div>`)[0];
+                popup_74568bb06cdd4677815879ccb0a1a9e2.setContent(html_1a966e69c66c42749360646f7e310f84);
+            
+
+            circle_631377af1fde4fcea4dd1051e8332117.bindPopup(popup_74568bb06cdd4677815879ccb0a1a9e2)
+            ;
+
+            
+        
+    
+
+            var circle_df44733b069344ff80812a41cbd728a1 = L.circle(
+                [-25.67449, 28.301512],
+                {
+  "bubblingMouseEvents": true,
+  "color": "crimson",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "crimson",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 1965.0,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_c32b8be7aec74e9e856224ef58b0035a);
+            
+    
+            var popup_0b67c1a314174b3a9a804662085b7f72 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_48424e459a4746c98008b78955691a10 = $(`<div id="html_48424e459a4746c98008b78955691a10" style="width: 100.0%; height: 100.0%;">{'Name': 'LAERSKOOL DIE POORT', 'Delimitation': {'ProvinceID': 3, 'Province': 'Gauteng', 'MunicipalityID': 3004, 'Municipality': 'TSH - Tshwane Metro [Pretoria]', 'WardID': 79900099, 'VDNumber': 33190084}, 'Location': {'Town': 'TSHWANE', 'Suburb': 'DERDEPOORT', 'Street': '236 JR KAMEELDRIFT ROAD', 'Latitude': '-25.67449', 'Longitude': '28.301512'}}</div>`)[0];
+                popup_0b67c1a314174b3a9a804662085b7f72.setContent(html_48424e459a4746c98008b78955691a10);
+            
+
+            circle_df44733b069344ff80812a41cbd728a1.bindPopup(popup_0b67c1a314174b3a9a804662085b7f72)
+            ;
+
+            
+        
+    
+
+            var circle_e8b5b38aff6445df98ffad5f2053a74a = L.circle(
+                [-25.67449, 28.301512],
+                {
+  "bubblingMouseEvents": true,
+  "color": "crimson",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "crimson",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 1965.0,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_c32b8be7aec74e9e856224ef58b0035a);
+            
+    
+            var popup_6601a8f1927b483ab0fd2018a75a26a4 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_9a7475cbb963436fb159d1ffcd7b7c96 = $(`<div id="html_9a7475cbb963436fb159d1ffcd7b7c96" style="width: 100.0%; height: 100.0%;">{'Name': 'LAERSKOOL DIE POORT', 'Delimitation': {'ProvinceID': 3, 'Province': 'Gauteng', 'MunicipalityID': 3004, 'Municipality': 'TSH - Tshwane Metro [Pretoria]', 'WardID': 79900099, 'VDNumber': 33190084}, 'Location': {'Town': 'TSHWANE', 'Suburb': 'DERDEPOORT', 'Street': '236 JR KAMEELDRIFT ROAD', 'Latitude': '-25.67449', 'Longitude': '28.301512'}}</div>`)[0];
+                popup_6601a8f1927b483ab0fd2018a75a26a4.setContent(html_9a7475cbb963436fb159d1ffcd7b7c96);
+            
+
+            circle_e8b5b38aff6445df98ffad5f2053a74a.bindPopup(popup_6601a8f1927b483ab0fd2018a75a26a4)
+            ;
+
+            
+        
+    
+
+            var circle_c4b597e2cad845ecb38936d76e5dbf7d = L.circle(
+                [-25.6781, 28.5233],
+                {
+  "bubblingMouseEvents": true,
+  "color": "crimson",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "crimson",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 1905.0,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_c32b8be7aec74e9e856224ef58b0035a);
+            
+    
+            var popup_8072983ffd3b4aa791be95f43d37cb84 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_c0665782405247e88386d808f517791d = $(`<div id="html_c0665782405247e88386d808f517791d" style="width: 100.0%; height: 100.0%;">{'Name': 'CULLINAN COMBINE SCHOOL', 'Delimitation': {'ProvinceID': 3, 'Province': 'Gauteng', 'MunicipalityID': 3004, 'Municipality': 'TSH - Tshwane Metro [Pretoria]', 'WardID': 79900100, 'VDNumber': 33050045}, 'Location': {'Town': 'CULLINAN', 'Suburb': 'TSHWANE', 'Street': 'CRESENT STREET', 'Latitude': '-25.6781', 'Longitude': '28.5233'}}</div>`)[0];
+                popup_8072983ffd3b4aa791be95f43d37cb84.setContent(html_c0665782405247e88386d808f517791d);
+            
+
+            circle_c4b597e2cad845ecb38936d76e5dbf7d.bindPopup(popup_8072983ffd3b4aa791be95f43d37cb84)
+            ;
+
+            
+        
+    
+
+            var circle_8cd0e252928e45a28b066550463983bd = L.circle(
+                [-25.6781, 28.5233],
+                {
+  "bubblingMouseEvents": true,
+  "color": "crimson",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "crimson",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 1905.0,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_c32b8be7aec74e9e856224ef58b0035a);
+            
+    
+            var popup_726fe2ed14d0488e8e9968ef6623ec3c = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_b595b9ca248041c7b1dde50df1ff11b7 = $(`<div id="html_b595b9ca248041c7b1dde50df1ff11b7" style="width: 100.0%; height: 100.0%;">{'Name': 'CULLINAN COMBINE SCHOOL', 'Delimitation': {'ProvinceID': 3, 'Province': 'Gauteng', 'MunicipalityID': 3004, 'Municipality': 'TSH - Tshwane Metro [Pretoria]', 'WardID': 79900100, 'VDNumber': 33050045}, 'Location': {'Town': 'CULLINAN', 'Suburb': 'TSHWANE', 'Street': 'CRESENT STREET', 'Latitude': '-25.6781', 'Longitude': '28.5233'}}</div>`)[0];
+                popup_726fe2ed14d0488e8e9968ef6623ec3c.setContent(html_b595b9ca248041c7b1dde50df1ff11b7);
+            
+
+            circle_8cd0e252928e45a28b066550463983bd.bindPopup(popup_726fe2ed14d0488e8e9968ef6623ec3c)
+            ;
+
+            
+        
+</script>
