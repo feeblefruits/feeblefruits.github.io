@@ -1,0 +1,1205 @@
+<!DOCTYPE html>
+<head>    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <script>L_PREFER_CANVAS=false; L_NO_TOUCH=false; L_DISABLE_3D=false;</script>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.3.4/dist/leaflet.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.3.4/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://rawcdn.githack.com/python-visualization/folium/master/folium/templates/leaflet.awesome.rotate.css"/>
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    
+    <meta name="viewport" content="width=device-width,
+        initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <style>#map_c8410740f1c043a7bdefba52ba49ff40 {
+        position: relative;
+        width: 100.0%;
+        height: 100.0%;
+        left: 0.0%;
+        top: 0.0%;
+        }
+    </style>
+</head>
+<body>    
+    
+    <div class="folium-map" id="map_c8410740f1c043a7bdefba52ba49ff40" ></div>
+</body>
+<script>    
+    
+    
+        var bounds = null;
+    
+
+    var map_c8410740f1c043a7bdefba52ba49ff40 = L.map(
+        'map_c8410740f1c043a7bdefba52ba49ff40', {
+        center: [-30.5595, 22.9375],
+        zoom: 6,
+        maxBounds: bounds,
+        layers: [],
+        worldCopyJump: false,
+        crs: L.CRS.EPSG3857,
+        zoomControl: true,
+        });
+
+    
+    
+    var tile_layer_d639f1c2f1464622a4768cd242dc30ee = L.tileLayer(
+        'https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png',
+        {
+        "attribution": null,
+        "detectRetina": false,
+        "maxNativeZoom": 18,
+        "maxZoom": 18,
+        "minZoom": 0,
+        "noWrap": false,
+        "opacity": 1,
+        "subdomains": "abc",
+        "tms": false
+}).addTo(map_c8410740f1c043a7bdefba52ba49ff40);
+    
+
+            var circle_2047ec2e914849a9bbdf04e06f08fe94 = L.circle(
+                [-34.122257, 22.10858],
+                {
+  "bubblingMouseEvents": true,
+  "color": "crimson",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "crimson",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 3855.0,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_c8410740f1c043a7bdefba52ba49ff40);
+            
+    
+            var popup_8aa755d52c304393bfae6e874a4f4de1 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_69340dcbac214e6caca2284ef9195b69 = $(`<div id="html_69340dcbac214e6caca2284ef9195b69" style="width: 100.0%; height: 100.0%;">WC043 - MOSSEL BAY [MOSSEL BAY]</div>`)[0];
+                popup_8aa755d52c304393bfae6e874a4f4de1.setContent(html_69340dcbac214e6caca2284ef9195b69);
+            
+
+            circle_2047ec2e914849a9bbdf04e06f08fe94.bindPopup(popup_8aa755d52c304393bfae6e874a4f4de1)
+            ;
+
+            
+        
+    
+
+            var circle_568f4625112d49aab80c37b06c06e1aa = L.circle(
+                [-34.122257, 22.10858],
+                {
+  "bubblingMouseEvents": true,
+  "color": "crimson",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "crimson",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 3855.0,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_c8410740f1c043a7bdefba52ba49ff40);
+            
+    
+            var popup_cb1d2ad42599446484dfe530d89988e9 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_be2b1712bdb94e1b942628df8c6953aa = $(`<div id="html_be2b1712bdb94e1b942628df8c6953aa" style="width: 100.0%; height: 100.0%;">WC043 - MOSSEL BAY [MOSSEL BAY]</div>`)[0];
+                popup_cb1d2ad42599446484dfe530d89988e9.setContent(html_be2b1712bdb94e1b942628df8c6953aa);
+            
+
+            circle_568f4625112d49aab80c37b06c06e1aa.bindPopup(popup_cb1d2ad42599446484dfe530d89988e9)
+            ;
+
+            
+        
+    
+
+            var circle_7382bb1719f54c4298b7cab6861730ab = L.circle(
+                [-34.075894, 22.169085],
+                {
+  "bubblingMouseEvents": true,
+  "color": "crimson",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "crimson",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 3450.0,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_c8410740f1c043a7bdefba52ba49ff40);
+            
+    
+            var popup_55d4d4a506ed432f801b15d977eadb18 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_2c52c5bc1bca485e99932c8f03978efb = $(`<div id="html_2c52c5bc1bca485e99932c8f03978efb" style="width: 100.0%; height: 100.0%;">WC043 - MOSSEL BAY [MOSSEL BAY]</div>`)[0];
+                popup_55d4d4a506ed432f801b15d977eadb18.setContent(html_2c52c5bc1bca485e99932c8f03978efb);
+            
+
+            circle_7382bb1719f54c4298b7cab6861730ab.bindPopup(popup_55d4d4a506ed432f801b15d977eadb18)
+            ;
+
+            
+        
+    
+
+            var circle_0208fc3481724dadaea05881515f57aa = L.circle(
+                [-34.075894, 22.169085],
+                {
+  "bubblingMouseEvents": true,
+  "color": "crimson",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "crimson",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 3450.0,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_c8410740f1c043a7bdefba52ba49ff40);
+            
+    
+            var popup_4c6bc5fcedd948ad88dee59de93cafc8 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_aa8203ba67374efdb29304149e716c17 = $(`<div id="html_aa8203ba67374efdb29304149e716c17" style="width: 100.0%; height: 100.0%;">WC043 - MOSSEL BAY [MOSSEL BAY]</div>`)[0];
+                popup_4c6bc5fcedd948ad88dee59de93cafc8.setContent(html_aa8203ba67374efdb29304149e716c17);
+            
+
+            circle_0208fc3481724dadaea05881515f57aa.bindPopup(popup_4c6bc5fcedd948ad88dee59de93cafc8)
+            ;
+
+            
+        
+    
+
+            var circle_f21a1051351a45e09c91bb03bb13250a = L.circle(
+                [-34.19015, 22.121229999999997],
+                {
+  "bubblingMouseEvents": true,
+  "color": "crimson",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "crimson",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 2070.0,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_c8410740f1c043a7bdefba52ba49ff40);
+            
+    
+            var popup_7a17355e01c2404588632179fdce5cb4 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_654044ffd51f484b88af9c58615bc40c = $(`<div id="html_654044ffd51f484b88af9c58615bc40c" style="width: 100.0%; height: 100.0%;">WC043 - MOSSEL BAY [MOSSEL BAY]</div>`)[0];
+                popup_7a17355e01c2404588632179fdce5cb4.setContent(html_654044ffd51f484b88af9c58615bc40c);
+            
+
+            circle_f21a1051351a45e09c91bb03bb13250a.bindPopup(popup_7a17355e01c2404588632179fdce5cb4)
+            ;
+
+            
+        
+    
+
+            var circle_bac5488a197a4798b742ba4d530292aa = L.circle(
+                [-34.19015, 22.121229999999997],
+                {
+  "bubblingMouseEvents": true,
+  "color": "crimson",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "crimson",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 2070.0,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_c8410740f1c043a7bdefba52ba49ff40);
+            
+    
+            var popup_10ea5cf275ba422a871ae3b383088615 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_4e377b14705a4670a8802df827f341f1 = $(`<div id="html_4e377b14705a4670a8802df827f341f1" style="width: 100.0%; height: 100.0%;">WC043 - MOSSEL BAY [MOSSEL BAY]</div>`)[0];
+                popup_10ea5cf275ba422a871ae3b383088615.setContent(html_4e377b14705a4670a8802df827f341f1);
+            
+
+            circle_bac5488a197a4798b742ba4d530292aa.bindPopup(popup_10ea5cf275ba422a871ae3b383088615)
+            ;
+
+            
+        
+    
+
+            var circle_2c4f15553b9842b5ad6f8c14c5b2759c = L.circle(
+                [-34.122257, 22.10858],
+                {
+  "bubblingMouseEvents": true,
+  "color": "crimson",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "crimson",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 1950.0,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_c8410740f1c043a7bdefba52ba49ff40);
+            
+    
+            var popup_91e559a9bb8a4acb9eb3ddd927e4a1b1 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_54832bff7a9e4b888f148de9d7c71736 = $(`<div id="html_54832bff7a9e4b888f148de9d7c71736" style="width: 100.0%; height: 100.0%;">WC043 - MOSSEL BAY [MOSSEL BAY]</div>`)[0];
+                popup_91e559a9bb8a4acb9eb3ddd927e4a1b1.setContent(html_54832bff7a9e4b888f148de9d7c71736);
+            
+
+            circle_2c4f15553b9842b5ad6f8c14c5b2759c.bindPopup(popup_91e559a9bb8a4acb9eb3ddd927e4a1b1)
+            ;
+
+            
+        
+    
+
+            var circle_b8dbd20d332441a39bbb6a38ee7d382c = L.circle(
+                [-34.122257, 22.10858],
+                {
+  "bubblingMouseEvents": true,
+  "color": "crimson",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "crimson",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 1950.0,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_c8410740f1c043a7bdefba52ba49ff40);
+            
+    
+            var popup_a5ee4ee55daf4819a7ee0e2cd24be964 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_7c5bd9aa1a3943cc83330b245bb4e214 = $(`<div id="html_7c5bd9aa1a3943cc83330b245bb4e214" style="width: 100.0%; height: 100.0%;">WC043 - MOSSEL BAY [MOSSEL BAY]</div>`)[0];
+                popup_a5ee4ee55daf4819a7ee0e2cd24be964.setContent(html_7c5bd9aa1a3943cc83330b245bb4e214);
+            
+
+            circle_b8dbd20d332441a39bbb6a38ee7d382c.bindPopup(popup_a5ee4ee55daf4819a7ee0e2cd24be964)
+            ;
+
+            
+        
+    
+
+            var circle_1ffff66d201842c4a5ea696e91aaf659 = L.circle(
+                [-34.039799, 22.221629],
+                {
+  "bubblingMouseEvents": true,
+  "color": "crimson",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "crimson",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 1710.0,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_c8410740f1c043a7bdefba52ba49ff40);
+            
+    
+            var popup_4235a69a39394e67a5c0031d351aeff4 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_62a7088e49e040d3a561617d70f66fc0 = $(`<div id="html_62a7088e49e040d3a561617d70f66fc0" style="width: 100.0%; height: 100.0%;">WC043 - MOSSEL BAY [MOSSEL BAY]</div>`)[0];
+                popup_4235a69a39394e67a5c0031d351aeff4.setContent(html_62a7088e49e040d3a561617d70f66fc0);
+            
+
+            circle_1ffff66d201842c4a5ea696e91aaf659.bindPopup(popup_4235a69a39394e67a5c0031d351aeff4)
+            ;
+
+            
+        
+    
+
+            var circle_08410ed0bc7b4c30a4d8fd775a2d62df = L.circle(
+                [-34.194027, 22.045297],
+                {
+  "bubblingMouseEvents": true,
+  "color": "crimson",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "crimson",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 1710.0,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_c8410740f1c043a7bdefba52ba49ff40);
+            
+    
+            var popup_f7216884bafd49868dc262de7946e06e = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_f12e32b545264afebbd5c512ed560a33 = $(`<div id="html_f12e32b545264afebbd5c512ed560a33" style="width: 100.0%; height: 100.0%;">WC043 - MOSSEL BAY [MOSSEL BAY]</div>`)[0];
+                popup_f7216884bafd49868dc262de7946e06e.setContent(html_f12e32b545264afebbd5c512ed560a33);
+            
+
+            circle_08410ed0bc7b4c30a4d8fd775a2d62df.bindPopup(popup_f7216884bafd49868dc262de7946e06e)
+            ;
+
+            
+        
+    
+
+            var circle_90b280be4ca44eceac595171f0f9acd8 = L.circle(
+                [-29.81317, 24.41413],
+                {
+  "bubblingMouseEvents": true,
+  "color": "crimson",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "crimson",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 3630.0,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_c8410740f1c043a7bdefba52ba49ff40);
+            
+    
+            var popup_8ac616b5b2b14bde901703e3c40fcb41 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_a770aca4b4c84d16979ed8f1a92822a0 = $(`<div id="html_a770aca4b4c84d16979ed8f1a92822a0" style="width: 100.0%; height: 100.0%;">NC076 - THEMBELIHLE [HOPETOWN]</div>`)[0];
+                popup_8ac616b5b2b14bde901703e3c40fcb41.setContent(html_a770aca4b4c84d16979ed8f1a92822a0);
+            
+
+            circle_90b280be4ca44eceac595171f0f9acd8.bindPopup(popup_8ac616b5b2b14bde901703e3c40fcb41)
+            ;
+
+            
+        
+    
+
+            var circle_e2c4522e97e14f5fb7070106811b52b2 = L.circle(
+                [-29.81317, 24.41413],
+                {
+  "bubblingMouseEvents": true,
+  "color": "crimson",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "crimson",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 3630.0,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_c8410740f1c043a7bdefba52ba49ff40);
+            
+    
+            var popup_5905964ac4ff4435996b3d887d1dd0ed = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_dc66b403223a4db6a117275f25a8e4c6 = $(`<div id="html_dc66b403223a4db6a117275f25a8e4c6" style="width: 100.0%; height: 100.0%;">NC076 - THEMBELIHLE [HOPETOWN]</div>`)[0];
+                popup_5905964ac4ff4435996b3d887d1dd0ed.setContent(html_dc66b403223a4db6a117275f25a8e4c6);
+            
+
+            circle_e2c4522e97e14f5fb7070106811b52b2.bindPopup(popup_5905964ac4ff4435996b3d887d1dd0ed)
+            ;
+
+            
+        
+    
+
+            var circle_9f3214fb465942fba68f426192cf2530 = L.circle(
+                [-29.81317, 24.41413],
+                {
+  "bubblingMouseEvents": true,
+  "color": "crimson",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "crimson",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 3465.0,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_c8410740f1c043a7bdefba52ba49ff40);
+            
+    
+            var popup_cd968a38bbf54e52bb727461b32502f2 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_81a63f18a72345ea9b5e23dc3f40ac0c = $(`<div id="html_81a63f18a72345ea9b5e23dc3f40ac0c" style="width: 100.0%; height: 100.0%;">NC076 - THEMBELIHLE [HOPETOWN]</div>`)[0];
+                popup_cd968a38bbf54e52bb727461b32502f2.setContent(html_81a63f18a72345ea9b5e23dc3f40ac0c);
+            
+
+            circle_9f3214fb465942fba68f426192cf2530.bindPopup(popup_cd968a38bbf54e52bb727461b32502f2)
+            ;
+
+            
+        
+    
+
+            var circle_6e3848d9473f4697be91820c4e8796ec = L.circle(
+                [-29.81317, 24.41413],
+                {
+  "bubblingMouseEvents": true,
+  "color": "crimson",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "crimson",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 3465.0,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_c8410740f1c043a7bdefba52ba49ff40);
+            
+    
+            var popup_eb70fa10bbd94daa9aeb28aa19dcaa56 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_05cfe6965b284657b53b2a85e5cc4db5 = $(`<div id="html_05cfe6965b284657b53b2a85e5cc4db5" style="width: 100.0%; height: 100.0%;">NC076 - THEMBELIHLE [HOPETOWN]</div>`)[0];
+                popup_eb70fa10bbd94daa9aeb28aa19dcaa56.setContent(html_05cfe6965b284657b53b2a85e5cc4db5);
+            
+
+            circle_6e3848d9473f4697be91820c4e8796ec.bindPopup(popup_eb70fa10bbd94daa9aeb28aa19dcaa56)
+            ;
+
+            
+        
+    
+
+            var circle_9eab2278aece4faba16886fbfdf16a6d = L.circle(
+                [-29.622619, 24.090277],
+                {
+  "bubblingMouseEvents": true,
+  "color": "crimson",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "crimson",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 840.0,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_c8410740f1c043a7bdefba52ba49ff40);
+            
+    
+            var popup_20552d6f0e1046ba83ce46107c3152ad = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_a0a588ecf1ba4f2790ae26aff80520d5 = $(`<div id="html_a0a588ecf1ba4f2790ae26aff80520d5" style="width: 100.0%; height: 100.0%;">NC076 - THEMBELIHLE [HOPETOWN]</div>`)[0];
+                popup_20552d6f0e1046ba83ce46107c3152ad.setContent(html_a0a588ecf1ba4f2790ae26aff80520d5);
+            
+
+            circle_9eab2278aece4faba16886fbfdf16a6d.bindPopup(popup_20552d6f0e1046ba83ce46107c3152ad)
+            ;
+
+            
+        
+    
+
+            var circle_22ea11f81b854060994ffa4de52d6ba0 = L.circle(
+                [-29.622619, 24.090277],
+                {
+  "bubblingMouseEvents": true,
+  "color": "crimson",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "crimson",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 840.0,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_c8410740f1c043a7bdefba52ba49ff40);
+            
+    
+            var popup_c3eb80763eba42d2911afe8760e67037 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_c1605841a97746709ea1fadaa1eb781e = $(`<div id="html_c1605841a97746709ea1fadaa1eb781e" style="width: 100.0%; height: 100.0%;">NC076 - THEMBELIHLE [HOPETOWN]</div>`)[0];
+                popup_c3eb80763eba42d2911afe8760e67037.setContent(html_c1605841a97746709ea1fadaa1eb781e);
+            
+
+            circle_22ea11f81b854060994ffa4de52d6ba0.bindPopup(popup_c3eb80763eba42d2911afe8760e67037)
+            ;
+
+            
+        
+    
+
+            var circle_180515aee72f4c89a41feaa2cb750826 = L.circle(
+                [-29.622619, 24.090277],
+                {
+  "bubblingMouseEvents": true,
+  "color": "crimson",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "crimson",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 675.0,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_c8410740f1c043a7bdefba52ba49ff40);
+            
+    
+            var popup_b798dcc2ec1942bbb9ee0ba1f5152765 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_3c3ed74ac8034b64974f8a825b229474 = $(`<div id="html_3c3ed74ac8034b64974f8a825b229474" style="width: 100.0%; height: 100.0%;">NC076 - THEMBELIHLE [HOPETOWN]</div>`)[0];
+                popup_b798dcc2ec1942bbb9ee0ba1f5152765.setContent(html_3c3ed74ac8034b64974f8a825b229474);
+            
+
+            circle_180515aee72f4c89a41feaa2cb750826.bindPopup(popup_b798dcc2ec1942bbb9ee0ba1f5152765)
+            ;
+
+            
+        
+    
+
+            var circle_ed201c71da164871a5bfcfc8d361ee43 = L.circle(
+                [-29.622619, 24.090277],
+                {
+  "bubblingMouseEvents": true,
+  "color": "crimson",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "crimson",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 675.0,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_c8410740f1c043a7bdefba52ba49ff40);
+            
+    
+            var popup_9380e1ed0ff849dc92efab9de64ad833 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_213a67c616474245b9b6f10036e7ccd2 = $(`<div id="html_213a67c616474245b9b6f10036e7ccd2" style="width: 100.0%; height: 100.0%;">NC076 - THEMBELIHLE [HOPETOWN]</div>`)[0];
+                popup_9380e1ed0ff849dc92efab9de64ad833.setContent(html_213a67c616474245b9b6f10036e7ccd2);
+            
+
+            circle_ed201c71da164871a5bfcfc8d361ee43.bindPopup(popup_9380e1ed0ff849dc92efab9de64ad833)
+            ;
+
+            
+        
+    
+
+            var circle_98323c12bc064813bf94be8044162097 = L.circle(
+                [-29.942965, 23.667199],
+                {
+  "bubblingMouseEvents": true,
+  "color": "crimson",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "crimson",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 405.0,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_c8410740f1c043a7bdefba52ba49ff40);
+            
+    
+            var popup_acd92572a3c14125ac7cb1124ba6f444 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_a324e146f6ce47f8807b5a28069ffe14 = $(`<div id="html_a324e146f6ce47f8807b5a28069ffe14" style="width: 100.0%; height: 100.0%;">NC076 - THEMBELIHLE [HOPETOWN]</div>`)[0];
+                popup_acd92572a3c14125ac7cb1124ba6f444.setContent(html_a324e146f6ce47f8807b5a28069ffe14);
+            
+
+            circle_98323c12bc064813bf94be8044162097.bindPopup(popup_acd92572a3c14125ac7cb1124ba6f444)
+            ;
+
+            
+        
+    
+
+            var circle_db5d8798499c4d8d97b72e6d3a278534 = L.circle(
+                [-29.942965, 23.667199],
+                {
+  "bubblingMouseEvents": true,
+  "color": "crimson",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "crimson",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 405.0,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_c8410740f1c043a7bdefba52ba49ff40);
+            
+    
+            var popup_40fb80ac64ba49e2b816f31325186244 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_f95d191bca1e4aada903bc5883a9d969 = $(`<div id="html_f95d191bca1e4aada903bc5883a9d969" style="width: 100.0%; height: 100.0%;">NC076 - THEMBELIHLE [HOPETOWN]</div>`)[0];
+                popup_40fb80ac64ba49e2b816f31325186244.setContent(html_f95d191bca1e4aada903bc5883a9d969);
+            
+
+            circle_db5d8798499c4d8d97b72e6d3a278534.bindPopup(popup_40fb80ac64ba49e2b816f31325186244)
+            ;
+
+            
+        
+    
+
+            var circle_059172fe3745473dbec7db66297c00c8 = L.circle(
+                [-25.739511, 28.530790999999997],
+                {
+  "bubblingMouseEvents": true,
+  "color": "crimson",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "crimson",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 3030.0,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_c8410740f1c043a7bdefba52ba49ff40);
+            
+    
+            var popup_e291e6ecb1054790ab832404ca104ef7 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_fd251775d55d4468a2e0dbb8dcd679f3 = $(`<div id="html_fd251775d55d4468a2e0dbb8dcd679f3" style="width: 100.0%; height: 100.0%;">GT461 - NOKENG TSA TAEMANE [CULLINAN]</div>`)[0];
+                popup_e291e6ecb1054790ab832404ca104ef7.setContent(html_fd251775d55d4468a2e0dbb8dcd679f3);
+            
+
+            circle_059172fe3745473dbec7db66297c00c8.bindPopup(popup_e291e6ecb1054790ab832404ca104ef7)
+            ;
+
+            
+        
+    
+
+            var circle_f3c3fdae48254f798c2d485f41664a3e = L.circle(
+                [-25.739511, 28.530790999999997],
+                {
+  "bubblingMouseEvents": true,
+  "color": "crimson",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "crimson",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 3030.0,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_c8410740f1c043a7bdefba52ba49ff40);
+            
+    
+            var popup_9e9341d931f043b6b0d3ca7f7e709299 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_eef6c26a6d214d0699cd1feafef17d5c = $(`<div id="html_eef6c26a6d214d0699cd1feafef17d5c" style="width: 100.0%; height: 100.0%;">GT461 - NOKENG TSA TAEMANE [CULLINAN]</div>`)[0];
+                popup_9e9341d931f043b6b0d3ca7f7e709299.setContent(html_eef6c26a6d214d0699cd1feafef17d5c);
+            
+
+            circle_f3c3fdae48254f798c2d485f41664a3e.bindPopup(popup_9e9341d931f043b6b0d3ca7f7e709299)
+            ;
+
+            
+        
+    
+
+            var circle_1214defa0acf482c8967e344c002183a = L.circle(
+                [-25.739511, 28.530790999999997],
+                {
+  "bubblingMouseEvents": true,
+  "color": "crimson",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "crimson",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 2730.0,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_c8410740f1c043a7bdefba52ba49ff40);
+            
+    
+            var popup_1daa4d57f67f4005a75c1a5dee54cd0c = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_90ef938203344ef6b15cbc9ac801f56d = $(`<div id="html_90ef938203344ef6b15cbc9ac801f56d" style="width: 100.0%; height: 100.0%;">GT461 - NOKENG TSA TAEMANE [CULLINAN]</div>`)[0];
+                popup_1daa4d57f67f4005a75c1a5dee54cd0c.setContent(html_90ef938203344ef6b15cbc9ac801f56d);
+            
+
+            circle_1214defa0acf482c8967e344c002183a.bindPopup(popup_1daa4d57f67f4005a75c1a5dee54cd0c)
+            ;
+
+            
+        
+    
+
+            var circle_cc8d6441b4864117acb87a5659a7473e = L.circle(
+                [-25.739511, 28.530790999999997],
+                {
+  "bubblingMouseEvents": true,
+  "color": "crimson",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "crimson",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 2730.0,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_c8410740f1c043a7bdefba52ba49ff40);
+            
+    
+            var popup_99b398b913d44a42a02a320309b1f80d = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_e8ac3cf39e954daa8fe2999b9e76db77 = $(`<div id="html_e8ac3cf39e954daa8fe2999b9e76db77" style="width: 100.0%; height: 100.0%;">GT461 - NOKENG TSA TAEMANE [CULLINAN]</div>`)[0];
+                popup_99b398b913d44a42a02a320309b1f80d.setContent(html_e8ac3cf39e954daa8fe2999b9e76db77);
+            
+
+            circle_cc8d6441b4864117acb87a5659a7473e.bindPopup(popup_99b398b913d44a42a02a320309b1f80d)
+            ;
+
+            
+        
+    
+
+            var circle_929a8ab498fc4c1ba016e22c9cfaefb3 = L.circle(
+                [-25.6781, 28.5233],
+                {
+  "bubblingMouseEvents": true,
+  "color": "crimson",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "crimson",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 2025.0,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_c8410740f1c043a7bdefba52ba49ff40);
+            
+    
+            var popup_21ba189c98984f7c9423517bdb7471a1 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_6f3caba5ab304595b8edd27057adaac2 = $(`<div id="html_6f3caba5ab304595b8edd27057adaac2" style="width: 100.0%; height: 100.0%;">GT461 - NOKENG TSA TAEMANE [CULLINAN]</div>`)[0];
+                popup_21ba189c98984f7c9423517bdb7471a1.setContent(html_6f3caba5ab304595b8edd27057adaac2);
+            
+
+            circle_929a8ab498fc4c1ba016e22c9cfaefb3.bindPopup(popup_21ba189c98984f7c9423517bdb7471a1)
+            ;
+
+            
+        
+    
+
+            var circle_fbd3bc4c8bcf4e05b89ec7518cce3bf8 = L.circle(
+                [-25.6781, 28.5233],
+                {
+  "bubblingMouseEvents": true,
+  "color": "crimson",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "crimson",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 2025.0,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_c8410740f1c043a7bdefba52ba49ff40);
+            
+    
+            var popup_8a655b2a35d644758f559a4a655a6af9 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_db831f5b9a334e1291b1dbe055a681ad = $(`<div id="html_db831f5b9a334e1291b1dbe055a681ad" style="width: 100.0%; height: 100.0%;">GT461 - NOKENG TSA TAEMANE [CULLINAN]</div>`)[0];
+                popup_8a655b2a35d644758f559a4a655a6af9.setContent(html_db831f5b9a334e1291b1dbe055a681ad);
+            
+
+            circle_fbd3bc4c8bcf4e05b89ec7518cce3bf8.bindPopup(popup_8a655b2a35d644758f559a4a655a6af9)
+            ;
+
+            
+        
+    
+
+            var circle_d8258285557847a49333c8a5eb156212 = L.circle(
+                [-25.67449, 28.301512],
+                {
+  "bubblingMouseEvents": true,
+  "color": "crimson",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "crimson",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 1965.0,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_c8410740f1c043a7bdefba52ba49ff40);
+            
+    
+            var popup_f2092081b3d542288babfd618cdc37ae = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_d9c54d8d52ab46d4bdd69160126e48c9 = $(`<div id="html_d9c54d8d52ab46d4bdd69160126e48c9" style="width: 100.0%; height: 100.0%;">GT461 - NOKENG TSA TAEMANE [CULLINAN]</div>`)[0];
+                popup_f2092081b3d542288babfd618cdc37ae.setContent(html_d9c54d8d52ab46d4bdd69160126e48c9);
+            
+
+            circle_d8258285557847a49333c8a5eb156212.bindPopup(popup_f2092081b3d542288babfd618cdc37ae)
+            ;
+
+            
+        
+    
+
+            var circle_6c832570179846239b56c7dcd32fcc02 = L.circle(
+                [-25.67449, 28.301512],
+                {
+  "bubblingMouseEvents": true,
+  "color": "crimson",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "crimson",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 1965.0,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_c8410740f1c043a7bdefba52ba49ff40);
+            
+    
+            var popup_6af31fe72dc74259b087ed22b02a8f55 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_86bbf3acf382449fa5d5710b74cb9de8 = $(`<div id="html_86bbf3acf382449fa5d5710b74cb9de8" style="width: 100.0%; height: 100.0%;">GT461 - NOKENG TSA TAEMANE [CULLINAN]</div>`)[0];
+                popup_6af31fe72dc74259b087ed22b02a8f55.setContent(html_86bbf3acf382449fa5d5710b74cb9de8);
+            
+
+            circle_6c832570179846239b56c7dcd32fcc02.bindPopup(popup_6af31fe72dc74259b087ed22b02a8f55)
+            ;
+
+            
+        
+    
+
+            var circle_7a58814c63fc40b1a1442864ff281143 = L.circle(
+                [-25.6781, 28.5233],
+                {
+  "bubblingMouseEvents": true,
+  "color": "crimson",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "crimson",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 1905.0,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_c8410740f1c043a7bdefba52ba49ff40);
+            
+    
+            var popup_715c713209c94109a3fd8808b51bf319 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_958ad11478c94d428bcd8043e6bc9cdd = $(`<div id="html_958ad11478c94d428bcd8043e6bc9cdd" style="width: 100.0%; height: 100.0%;">GT461 - NOKENG TSA TAEMANE [CULLINAN]</div>`)[0];
+                popup_715c713209c94109a3fd8808b51bf319.setContent(html_958ad11478c94d428bcd8043e6bc9cdd);
+            
+
+            circle_7a58814c63fc40b1a1442864ff281143.bindPopup(popup_715c713209c94109a3fd8808b51bf319)
+            ;
+
+            
+        
+    
+
+            var circle_2639d9b6445c4516adf206c87456e06c = L.circle(
+                [-25.6781, 28.5233],
+                {
+  "bubblingMouseEvents": true,
+  "color": "crimson",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "crimson",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 1905.0,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_c8410740f1c043a7bdefba52ba49ff40);
+            
+    
+            var popup_121d6415d9a944a39e78ff8a0baed482 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_49cbada197d247b1b53ea43832a0bd59 = $(`<div id="html_49cbada197d247b1b53ea43832a0bd59" style="width: 100.0%; height: 100.0%;">GT461 - NOKENG TSA TAEMANE [CULLINAN]</div>`)[0];
+                popup_121d6415d9a944a39e78ff8a0baed482.setContent(html_49cbada197d247b1b53ea43832a0bd59);
+            
+
+            circle_2639d9b6445c4516adf206c87456e06c.bindPopup(popup_121d6415d9a944a39e78ff8a0baed482)
+            ;
+
+            
+        
+</script>
