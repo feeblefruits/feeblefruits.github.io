@@ -1,0 +1,364 @@
+<!DOCTYPE html>
+<head>    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <script>L_PREFER_CANVAS=false; L_NO_TOUCH=false; L_DISABLE_3D=false;</script>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.3.4/dist/leaflet.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.3.4/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://rawcdn.githack.com/python-visualization/folium/master/folium/templates/leaflet.awesome.rotate.css"/>
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    
+    <meta name="viewport" content="width=device-width,
+        initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <style>#map_bb6fb0f2f9814067bb73126cde239cc9 {
+        position: relative;
+        width: 100.0%;
+        height: 100.0%;
+        left: 0.0%;
+        top: 0.0%;
+        }
+    </style>
+</head>
+<body>    
+    
+    <div class="folium-map" id="map_bb6fb0f2f9814067bb73126cde239cc9" ></div>
+</body>
+<script>    
+    
+    
+        var bounds = null;
+    
+
+    var map_bb6fb0f2f9814067bb73126cde239cc9 = L.map(
+        'map_bb6fb0f2f9814067bb73126cde239cc9', {
+        center: [-29.0852, 26.1596],
+        zoom: 5,
+        maxBounds: bounds,
+        layers: [],
+        worldCopyJump: false,
+        crs: L.CRS.EPSG3857,
+        zoomControl: true,
+        });
+
+    
+    
+    var tile_layer_0400217e708f400c86e1d13b5695e0d7 = L.tileLayer(
+        'https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png',
+        {
+        "attribution": null,
+        "detectRetina": false,
+        "maxNativeZoom": 18,
+        "maxZoom": 18,
+        "minZoom": 0,
+        "noWrap": false,
+        "opacity": 1,
+        "subdomains": "abc",
+        "tms": false
+}).addTo(map_bb6fb0f2f9814067bb73126cde239cc9);
+    
+        var marker_d83836ad42e54e5d8ce60b1ae5704716 = L.marker(
+            [-34.0736, 18.4706],
+            {
+                icon: new L.Icon.Default()
+                }
+            ).addTo(map_bb6fb0f2f9814067bb73126cde239cc9);
+        
+    
+            var popup_54d6f136c3174ec7882c112d8c2a3547 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_6b10d9791003443abb15c5150a3aea85 = $(`<div id="html_6b10d9791003443abb15c5150a3aea85" style="width: 100.0%; height: 100.0%;"><strong>Party:</strong> African Christain Democratic Party </br><strong>Votes:</strong> 1339 </br><strong>Location</strong>: Lavender Hill, Western Cape</div>`)[0];
+                popup_54d6f136c3174ec7882c112d8c2a3547.setContent(html_6b10d9791003443abb15c5150a3aea85);
+            
+
+            marker_d83836ad42e54e5d8ce60b1ae5704716.bindPopup(popup_54d6f136c3174ec7882c112d8c2a3547)
+            ;
+
+            
+        
+    
+        var marker_631da695d8da4b56abfebdf2177e4aac = L.marker(
+            [-29.7429, 31.0063],
+            {
+                icon: new L.Icon.Default()
+                }
+            ).addTo(map_bb6fb0f2f9814067bb73126cde239cc9);
+        
+    
+            var popup_22f6f6ebadcd4d0ebe30447d5f54c7de = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_9896f07e9bdd41878c51f093fd83d235 = $(`<div id="html_9896f07e9bdd41878c51f093fd83d235" style="width: 100.0%; height: 100.0%;"><strong>Party:</strong> Inkatha Freedom Party </br><strong>Votes:</strong> 4888 </br><strong>Location</strong>: Duff's Road, KwaZulu-Natal</div>`)[0];
+                popup_22f6f6ebadcd4d0ebe30447d5f54c7de.setContent(html_9896f07e9bdd41878c51f093fd83d235);
+            
+
+            marker_631da695d8da4b56abfebdf2177e4aac.bindPopup(popup_22f6f6ebadcd4d0ebe30447d5f54c7de)
+            ;
+
+            
+        
+    
+        var marker_921f1a164c494f77a655ca0b2b3abcb2 = L.marker(
+            [-25.693, 28.2925],
+            {
+                icon: new L.Icon.Default()
+                }
+            ).addTo(map_bb6fb0f2f9814067bb73126cde239cc9);
+        
+    
+            var popup_7480cfb5a3634ab5a04bde960c945137 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_58146dadccd64f8696ab9f50775035e2 = $(`<div id="html_58146dadccd64f8696ab9f50775035e2" style="width: 100.0%; height: 100.0%;"><strong>Party:</strong> Vryheidsfront Plus </br><strong>Votes:</strong> 3541 </br><strong>Location</strong>: Montana, Gauteng</div>`)[0];
+                popup_7480cfb5a3634ab5a04bde960c945137.setContent(html_58146dadccd64f8696ab9f50775035e2);
+            
+
+            marker_921f1a164c494f77a655ca0b2b3abcb2.bindPopup(popup_7480cfb5a3634ab5a04bde960c945137)
+            ;
+
+            
+        
+    
+        var marker_a917076937c8464197d347b98640a9a5 = L.marker(
+            [-31.6684, 29.0275],
+            {
+                icon: new L.Icon.Default()
+                }
+            ).addTo(map_bb6fb0f2f9814067bb73126cde239cc9);
+        
+    
+            var popup_bb465abfbbdc407c9afbe74e289c6c54 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_0b7027d8cb5b482c8a6d71e1bdf89321 = $(`<div id="html_0b7027d8cb5b482c8a6d71e1bdf89321" style="width: 100.0%; height: 100.0%;"><strong>Party:</strong> African Transformation Movement </br><strong>Votes:</strong> 1066 </br><strong>Location</strong>: Ngqeleni, Eastern Cape</div>`)[0];
+                popup_bb465abfbbdc407c9afbe74e289c6c54.setContent(html_0b7027d8cb5b482c8a6d71e1bdf89321);
+            
+
+            marker_a917076937c8464197d347b98640a9a5.bindPopup(popup_bb465abfbbdc407c9afbe74e289c6c54)
+            ;
+
+            
+        
+    
+        var marker_cb7e711d0ced4c239e698b5651ea1845 = L.marker(
+            [-33.877, 18.6344],
+            {
+                icon: new L.Icon.Default()
+                }
+            ).addTo(map_bb6fb0f2f9814067bb73126cde239cc9);
+        
+    
+            var popup_4b845f2d773440e9a2dba44d32f8fec4 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_65d7a116f2cf435c937d3c9e3477402e = $(`<div id="html_65d7a116f2cf435c937d3c9e3477402e" style="width: 100.0%; height: 100.0%;"><strong>Party:</strong> GOOD South Africa </br><strong>Votes:</strong> 822 </br><strong>Location</strong>: Camelot, Western Cape</div>`)[0];
+                popup_4b845f2d773440e9a2dba44d32f8fec4.setContent(html_65d7a116f2cf435c937d3c9e3477402e);
+            
+
+            marker_cb7e711d0ced4c239e698b5651ea1845.bindPopup(popup_4b845f2d773440e9a2dba44d32f8fec4)
+            ;
+
+            
+        
+    
+        var marker_749206bd70e14955ad501a044b6e9994 = L.marker(
+            [-25.9957, 28.1971],
+            {
+                icon: new L.Icon.Default()
+                }
+            ).addTo(map_bb6fb0f2f9814067bb73126cde239cc9);
+        
+    
+            var popup_426a2aa02fcd4985a8e8d8c34317f5dd = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_b8b0a23d7c694d48a88958129fc54d13 = $(`<div id="html_b8b0a23d7c694d48a88958129fc54d13" style="width: 100.0%; height: 100.0%;"><strong>Party:</strong> Black First Land First </br><strong>Votes:</strong> 150 </br><strong>Location</strong>: Ivory Park, Gauteng</div>`)[0];
+                popup_426a2aa02fcd4985a8e8d8c34317f5dd.setContent(html_b8b0a23d7c694d48a88958129fc54d13);
+            
+
+            marker_749206bd70e14955ad501a044b6e9994.bindPopup(popup_426a2aa02fcd4985a8e8d8c34317f5dd)
+            ;
+
+            
+        
+    
+        var marker_1943a4ecf5744e00bd8d64e4cf94947d = L.marker(
+            [-28.5756, 28.8422],
+            {
+                icon: new L.Icon.Default()
+                }
+            ).addTo(map_bb6fb0f2f9814067bb73126cde239cc9);
+        
+    
+            var popup_61d14da5d82b481bae1fbcfe30bdbcdb = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_da2b627b2bf64a68ba7b97db67d88445 = $(`<div id="html_da2b627b2bf64a68ba7b97db67d88445" style="width: 100.0%; height: 100.0%;"><strong>Party:</strong> African Content Movement </br><strong>Votes:</strong> 321 </br><strong>Location</strong>: Ha-Sethunya, Free State</div>`)[0];
+                popup_61d14da5d82b481bae1fbcfe30bdbcdb.setContent(html_da2b627b2bf64a68ba7b97db67d88445);
+            
+
+            marker_1943a4ecf5744e00bd8d64e4cf94947d.bindPopup(popup_61d14da5d82b481bae1fbcfe30bdbcdb)
+            ;
+
+            
+        
+    
+        var marker_eeb0b723a3224e3d8f999ad5d923ce6d = L.marker(
+            [-33.9798, 18.5033],
+            {
+                icon: new L.Icon.Default()
+                }
+            ).addTo(map_bb6fb0f2f9814067bb73126cde239cc9);
+        
+    
+            var popup_dbe2f4eb26004bc295a7319b0d5ad9c0 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_820be4906d1e4c4aa6188c8faaddeb3c = $(`<div id="html_820be4906d1e4c4aa6188c8faaddeb3c" style="width: 100.0%; height: 100.0%;"><strong>Party:</strong> Al Jama-ah </br><strong>Votes:</strong> 1120 </br><strong>Location</strong>: Crawford, Western Cape</div>`)[0];
+                popup_dbe2f4eb26004bc295a7319b0d5ad9c0.setContent(html_820be4906d1e4c4aa6188c8faaddeb3c);
+            
+
+            marker_eeb0b723a3224e3d8f999ad5d923ce6d.bindPopup(popup_dbe2f4eb26004bc295a7319b0d5ad9c0)
+            ;
+
+            
+        
+    
+        var marker_0ca54c1edd31491c82377fa81637b43b = L.marker(
+            [-30.5833, 29.1167],
+            {
+                icon: new L.Icon.Default()
+                }
+            ).addTo(map_bb6fb0f2f9814067bb73126cde239cc9);
+        
+    
+            var popup_ba045795c58744bca56947c71fd06413 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_9ad11ccbb77c44cabae876b4a312d230 = $(`<div id="html_9ad11ccbb77c44cabae876b4a312d230" style="width: 100.0%; height: 100.0%;"><strong>Party:</strong> Socialist Revolutionary Workers Party </br><strong>Votes:</strong> 912 </br><strong>Location</strong>: Boschfontein, Eastern Cape</div>`)[0];
+                popup_ba045795c58744bca56947c71fd06413.setContent(html_9ad11ccbb77c44cabae876b4a312d230);
+            
+
+            marker_0ca54c1edd31491c82377fa81637b43b.bindPopup(popup_ba045795c58744bca56947c71fd06413)
+            ;
+
+            
+        
+    
+        var marker_5343534fab44460fb20ac2860af65bb8 = L.marker(
+            [-24.8279, 31.2197],
+            {
+                icon: new L.Icon.Default()
+                }
+            ).addTo(map_bb6fb0f2f9814067bb73126cde239cc9);
+        
+    
+            var popup_e1564cbc768c4a8392a2a7bf9b9a40e1 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_c60fff9f00d84d83a95e6e91abded939 = $(`<div id="html_c60fff9f00d84d83a95e6e91abded939" style="width: 100.0%; height: 100.0%;"><strong>Party:</strong> African People's Convention </br><strong>Votes:</strong> 338 </br><strong>Location</strong>: Agincourt, Mpumalanga</div>`)[0];
+                popup_e1564cbc768c4a8392a2a7bf9b9a40e1.setContent(html_c60fff9f00d84d83a95e6e91abded939);
+            
+
+            marker_5343534fab44460fb20ac2860af65bb8.bindPopup(popup_e1564cbc768c4a8392a2a7bf9b9a40e1)
+            ;
+
+            
+        
+    
+        var marker_70fddef806cf487ab745e25c43495086 = L.marker(
+            [-34.0327, 18.5953],
+            {
+                icon: new L.Icon.Default()
+                }
+            ).addTo(map_bb6fb0f2f9814067bb73126cde239cc9);
+        
+    
+            var popup_f45ae237b87f42efaf46158d5d6c2900 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_47080d27a15b43f5b0156eacedf5f0dc = $(`<div id="html_47080d27a15b43f5b0156eacedf5f0dc" style="width: 100.0%; height: 100.0%;"><strong>Party:</strong> Women Forward </br><strong>Votes:</strong> 109 </br><strong>Location</strong>: Woodlands, Western Cape</div>`)[0];
+                popup_f45ae237b87f42efaf46158d5d6c2900.setContent(html_47080d27a15b43f5b0156eacedf5f0dc);
+            
+
+            marker_70fddef806cf487ab745e25c43495086.bindPopup(popup_f45ae237b87f42efaf46158d5d6c2900)
+            ;
+
+            
+        
+    
+        var marker_cd98b33628034886aa6528ee6beb8bf2 = L.marker(
+            [-24.7464, 30.9891],
+            {
+                icon: new L.Icon.Default()
+                }
+            ).addTo(map_bb6fb0f2f9814067bb73126cde239cc9);
+        
+    
+            var popup_dd95458b8a6e408dbb97a4b8852fc30b = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_739aa6dd89c6464b860cd7bd39024b2a = $(`<div id="html_739aa6dd89c6464b860cd7bd39024b2a" style="width: 100.0%; height: 100.0%;"><strong>Party:</strong> South African National Congress of Traditional Authorities </br><strong>Votes:</strong> 133 </br><strong>Location</strong>: Morolaneng, Mpumalanga</div>`)[0];
+                popup_dd95458b8a6e408dbb97a4b8852fc30b.setContent(html_739aa6dd89c6464b860cd7bd39024b2a);
+            
+
+            marker_cd98b33628034886aa6528ee6beb8bf2.bindPopup(popup_dd95458b8a6e408dbb97a4b8852fc30b)
+            ;
+
+            
+        
+    
+        var marker_64393a833b454854ba173404d6ae09c5 = L.marker(
+            [-26.0319, 28.0508],
+            {
+                icon: new L.Icon.Default()
+                }
+            ).addTo(map_bb6fb0f2f9814067bb73126cde239cc9);
+        
+    
+            var popup_42045ae5aa4140d3b1afd5c72cefb451 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_7aab0d448c3c464bbbb5a689f0d1f272 = $(`<div id="html_7aab0d448c3c464bbbb5a689f0d1f272" style="width: 100.0%; height: 100.0%;"><strong>Party:</strong> Capitalist Party of South Africa </br><strong>Votes:</strong> 201 </br><strong>Location</strong>: Paulshof, Gauteng</div>`)[0];
+                popup_42045ae5aa4140d3b1afd5c72cefb451.setContent(html_7aab0d448c3c464bbbb5a689f0d1f272);
+            
+
+            marker_64393a833b454854ba173404d6ae09c5.bindPopup(popup_42045ae5aa4140d3b1afd5c72cefb451)
+            ;
+
+            
+        
+</script>
