@@ -1,0 +1,65 @@
+.map_wrapper{
+		padding-top: 30px;
+		padding-bottom: 30px;
+		background-color: white;
+	}
+#map {
+		width: 100%;
+		height: 100%;
+		margin: 0 auto;
+		position: absolute;
+	}
+
+.button-box {
+	padding-left: 10%;
+	padding-right: 10%;
+}
+
+#go-button {
+	display: block;
+	position: relative;
+	float: right;
+	width: 30%;
+	height: 40px;
+	padding: 10px;
+	border: none;
+	border-radius: 3px;
+	font-size: 12px;
+	text-align: center;
+	color: #fff;
+	background: #20d1e6;
+}
+
+#back-button {
+	display: block;
+	position: relative;
+	float: left;
+	width: 30%;
+	height: 40px;
+	border: none;
+	border-radius: 3px;
+	font-size: 12px;
+	text-align: center;
+	color: #fff;
+	background: #20d1e6;
+}
+
+.sticky-outer-map {
+	padding-top: 75vh;
+	padding-left: 10%;
+	padding-right: 10%;
+}
+
+#floating-box-map {
+
+	position: relative;
+	float: center;
+    padding: 20px;
+    text-align: center;
+    font-size: 15px;
+    line-height: 140%;
+    color: black;
+    background-color: #ffffff;
+    opacity: 0.9;
+    filter: alpha(opacity=90);
+}
