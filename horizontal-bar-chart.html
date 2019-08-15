@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<meta charset="utf-8">
+<style>
+body {
+  margin: 15px;
+  background-color: white  
+}
+.bar {
+    fill: #FF1919;
+}
+
+.bar:hover {
+    fill: orange;
+}
+
+
+.axis path,
+.axis line {
+  fill: none;
+  stroke: #D4D8DA;
+  stroke-width: 1px;
+  shape-rendering: crispEdges;
+}
+.x path {
+    display: none;
+}
+.toolTip {
+    position: absolute;
+    display: none;
+    min-width: 80px;
+    height: auto;
+    background: none repeat scroll 0 0 #ffffff;
+    border: 1px solid #6F257F;
+    padding: 14px;
+    text-align: center;
+}
+
+.y-axis {
+    font-size: 14px;
+}
+
+</style>
+<svg width="100vw" height="150vw"></svg>
+<script src="https://d3js.org/d3.v4.min.js"></script>
+<script src="http://labratrevenge.com/d3-tip/javascripts/d3.tip.v0.6.3.js"></script>
+<script>
+var svg = d3.select("svg"),
+    margin = {top: 20, right: 40, bottom: 30, left: 150},
+    width = +550 - margin.left - margin.right,
+    height = +1000 - margin.top - margin.bottom;
+  
+var tooltip = d3.select("body").append("div").attr("class", "toolTip");
+  
+var x = d3.scaleLinear().range([0, width]);
+var y = d3.scaleBand().range([height, 0]);
+
+var g = svg.append("g")
+        .attr("transform", "translate(" + margin.left + "," + margin.top + ")");
+  
+d3.csv("https://raw.githubusercontent.com/feeblefruits/dig/master/data/dig_claimant_locations.csv", function(error, data) {
+    if (error) throw error;
+    
+    x.domain([0, d3.max(data, function(d) { return d.Claimants; })]);
+    y.domain(data.map(function(d) { return d.Location; })).padding(0.1);
+
+    g.append("g")
+        .attr("class", "x axis")
+        .attr("transform", "translate(0," + height + ")")
+
+    g.append("g")
+        .attr("class", "y-axis")
+        .call(d3.axisLeft(y));
+
+    g.append("text")
+        .attr("x", 350)             
+        .attr("y", 0)
+        .attr("text-anchor", "middle")
+        .style("font-size", "18px") 
+        .text("Towns with most recorded miners likely effected by silicosis");
+
+    g.append("text")
+        .attr("x", (10))             
+        .attr("y", (height + 30))
+        .attr("text-anchor", "left")  
+        .style("font-size", "16px")
+        .text("Source: Richard Spoor Inc.");
+
+    g.selectAll(".bar")
+        .data(data)
+      .enter().append("rect")
+        .attr("class", "bar")
+        .attr("x", 0)
+        .attr("height", y.bandwidth())
+        .attr("y", function(d) { return y(d.Location); })
+        .attr("width", function(d) { return x(d.Claimants); })
+        .on("mousemove", function(d){
+            tooltip
+              .style("left", d3.event.pageX - 50 + "px")
+              .style("top", d3.event.pageY - 70 + "px")
+              .style("display", "inline-block")
+              .html((d.Location) + "<br>" + (d.Claimants));
+        })
+            .on("mouseout", function(d){ tooltip.style("display", "none");});
+
+});
+</script>
