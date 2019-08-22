@@ -340,43 +340,43 @@ article::before {
 /*vid*/
 }
 [data-animation="opacity"] .cd-section:nth-of-type(2) > div {
-  background-image: url("eswatini_files/assets/2-moses-daughter.jpg");
+  background-image: url("/eswatini_files/assets/2-moses-daughter.jpg");
 }
 [data-animation="opacity"] .cd-section:nth-of-type(3) > div {
-  background-image: url("eswatini_files/assets/3-moses-son.jpg");
+  background-image: url("/eswatini_files/assets/3-moses-son.jpg");
 }
 [data-animation="opacity"] .cd-section:nth-of-type(4) > div {
-  background-image: url("eswatini_files/assets/4-moses-pot.jpg");
+  background-image: url("/eswatini_files/assets/4-moses-pot.jpg");
 }
 [data-animation="opacity"] .cd-section:nth-of-type(5) > div {
-  background-image: url("eswatini_files/assets/5-moses-boy.jpg");
+  background-image: url("/eswatini_files/assets/5-moses-boy.jpg");
 }
 [data-animation="opacity"] .cd-section:nth-of-type(6) > div {
-  background-image: url("eswatini_files/assets/6-moses-x-ray.jpg");
+  background-image: url("/eswatini_files/assets/6-moses-x-ray.jpg");
 }
 [data-animation="opacity"] .cd-section:nth-of-type(7) > div {
 /*vid*/
 }
 [data-animation="opacity"] .cd-section:nth-of-type(8) > div {
-  background-image: url("eswatini_files/assets/8-lukhele-wife.jpg");
+  background-image: url("/eswatini_files/assets/8-lukhele-wife.jpg");
 }
 [data-animation="opacity"] .cd-section:nth-of-type(9) > div {
-  background-image: url("eswatini_files/assets/9-lukhele-washline-pic.jpg");
+  background-image: url("/eswatini_files/assets/9-lukhele-washline-pic.jpg");
 }
 [data-animation="opacity"] .cd-section:nth-of-type(10) > div {
 
 }
 [data-animation="opacity"] .cd-section:nth-of-type(11) > div {
-  background-image: url("eswatini_files/assets/11-dlamini-mug-pic.jpg");
+  background-image: url("/eswatini_files/assets/11-dlamini-mug-pic.jpg");
 }
 [data-animation="opacity"] .cd-section:nth-of-type(12) > div {
-  background-image: url("eswatini_files/assets/12-dlamini-wheelchair.jpg");
+  background-image: url("/eswatini_files/assets/12-dlamini-wheelchair.jpg");
 }
 [data-animation="opacity"] .cd-section:nth-of-type(13) > div {
-  background-image: url("eswatini_files/assets/13-dlamini-eswatini.jpg");
+  background-image: url("/eswatini_files/assets/13-dlamini-eswatini.jpg");
 }
 [data-animation="opacity"] .cd-section:nth-of-type(14) > div {
-  background-image: url("eswatini_files/assets/14-miners-ids.jpg");
+  background-image: url("/eswatini_files/assets/14-miners-ids.jpg");
 }
 
 @media only screen and (max-width: 1050px) {
@@ -394,7 +394,7 @@ article::before {
     display: none;
   }
   .cd-section:first-of-type > div {
-  background-image: url("eswatini_files/assets/1-moses-mug-pic.jpg");
+  background-image: url("/eswatini_files/assets/1-moses-mug-pic.jpg");
   }
   .cd-section:nth-of-type(2) > div {
     background-color: #2e5367;
@@ -412,7 +412,7 @@ article::before {
     background-color: #f06a59;
   }
     .cd-section:nth-of-type(7) > div {
-    background-image: url("eswatini_files/assets/7-lukhele-mug-pic.jpg");
+    background-image: url("/eswatini_files/assets/7-lukhele-mug-pic.jpg");
   }
     .cd-section:nth-of-type(8) > div {
     background-color: #f06a59;
@@ -420,7 +420,7 @@ article::before {
     .cd-section:nth-of-type(9) > div {
   }
     .cd-section:nth-of-type(10) > div {
-    background-image: url("eswatini_files/assets/10-lukhele-chickens-pic.jpg");
+    background-image: url("/eswatini_files/assets/10-lukhele-chickens-pic.jpg");
   }
     .cd-section:nth-of-type(11) > div {
     background-color: #f06a59;
