@@ -398,7 +398,7 @@ article::before {
 
   }
   .cd-section:nth-of-type(2) > div {
-  background-image: url("/eswatini_files/assets/1-moses-mug-pic.jpg");
+  background-image: url("/eswatini_files/assets/moses-mug-pic.jpg");
   }
   .cd-section:nth-of-type(3) > div {
     background-color: #fcb052;
@@ -424,7 +424,7 @@ article::before {
 
   }
     .cd-section:nth-of-type(11) > div {
-    background-image: url("/eswatini_files/assets/10-lukhele-chickens-pic.jpg");
+    background-image: url("/eswatini_files/assets/lukhele-chickens-pic.jpg");
   }
     .cd-section:nth-of-type(12) > div {
     background-color: #f06a59;
