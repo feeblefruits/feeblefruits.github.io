@@ -5,6 +5,7 @@ center: [28.6790, -30.1115],
 zoom: 7.2,
 pitch: 10,
 bearing: 0,
+interactive: false
 },
 'introduction': {
 duration: 3000,
@@ -12,6 +13,7 @@ center: [28.6790, -30.1115],
 zoom: 7.2,
 bearing: 20,
 pitch: 150,
+interactive: false
 },
 'zimbabwe': {
 duration: 3000,
@@ -19,6 +21,7 @@ center: [32.6334, -20.1914],
 zoom: 8,
 pitch: 45,
 bearing: 40,
+interactive: false
 },
 'botswana': {
 duration: 3000,
@@ -26,6 +29,7 @@ center: [25.1966, -25.3430],
 zoom: 8,
 pitch: 50,
 bearing: 80,
+interactive: false
 },
 'eswatini': {
 duration: 3000,
@@ -33,6 +37,7 @@ center: [31.4630, -26.5179],
 zoom: 8,
 pitch: 45,
 bearing: 20,
+interactive: false
 },
 'lesotho': {
 duration: 3000,
@@ -42,6 +47,7 @@ zoom: 5,
 zoom: 7,
 speed: 0.6,
 pitch: 60,
+interactive: false
 },
 'eastern-cape': {
 duration: 3000,
@@ -51,6 +57,7 @@ bearing: 60,
 zoom: 6.5,
 bearing: 30,
 pitch: 70,
+interactive: false
 }
 };
 
