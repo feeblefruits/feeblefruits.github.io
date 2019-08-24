@@ -1,9 +1,9 @@
 var chapters = {
 'lesotho-eastern-cape': {
 duration: 3000,
-center: [25.0288, -24.0973],
-zoom: 4,
-pitch: 0,
+center: [28.6790, -30.1115],
+zoom: 7.2,
+pitch: 10,
 bearing: 0,
 },
 'introduction': {
@@ -68,10 +68,9 @@ var map = new mapboxgl.Map({
     zoom: 7.2,
     pitch: 10,
     bearing: 0,
-    antialias: true
+    antialias: true,
+    interactive: false
 });
-
-map.scrollZoom.disable();
 
 // Get Data for visual
 data = d3.csv('https://raw.githubusercontent.com/feeblefruits/dig/master/data/claimants_coordinates_v3.csv')
@@ -144,3 +143,5 @@ var element = document.getElementById(id);
 var bounds = element.getBoundingClientRect();
 return bounds.top < window.innerHeight && bounds.bottom > 0;
 }
+
+map.scrollZoom.disable();
