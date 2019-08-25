@@ -13,7 +13,7 @@ var ts = new TwoStep({
     onChange: function(event) {
     	// printing all content array items
     	for (let i = 0; i < contentList.length; i++) {
-        	console.log(contentList[i]);
+        	// console.log(contentList[i]);
     	}
     },
     stick: document.querySelector('.parent .sticky-outer'),
