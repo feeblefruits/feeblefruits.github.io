@@ -1,9 +1,15 @@
 <!DOCTYPE html>
 <meta charset="utf-8">
 <style>
+
+html {
+    height: 100%;
+}
+
 body {
   margin: 15px;
-  background-color: white  
+  background-color: white;
+  height: 100%;
 }
 .bar {
     fill: #FF1919;
@@ -40,7 +46,7 @@ body {
 }
 
 </style>
-<svg width="100vw" height="150vh"></svg>
+<svg width="100%" height="100%"></svg>
 <script src="https://d3js.org/d3.v4.min.js"></script>
 <script src="horizontal-chart-js/d3-tip.js"></script>
 <script>
@@ -76,7 +82,7 @@ d3.csv("https://raw.githubusercontent.com/feeblefruits/dig/master/data/dig_claim
         .attr("y", 0)
         .attr("text-anchor", "middle")
         .style("font-size", "18px") 
-        .text("Towns with most recorded miners likely effected by silicosis");
+        .text("Towns and regions with most recorded miners likely effected by silicosis");
 
     g.append("text")
         .attr("x", (10))             
