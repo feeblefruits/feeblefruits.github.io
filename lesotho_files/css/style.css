@@ -353,7 +353,7 @@ article::before {
     display: none;
   }
   .cd-section:first-of-type > div {
-  background-image: url("/lesotho_files/assets/1-Monoka-Mug-Pic.jpg");
+  background-image: url("/lesotho_files/assets/Monoka-Mug-Pic.jpg");
   }
   .cd-section:nth-of-type(2) > div {
     background-color: #2e5367;
@@ -365,7 +365,7 @@ article::before {
     background-color: #fcb052;
   }
   .cd-section:nth-of-type(5) > div {
-  background-image: url("/lesotho_files/assets/5-Mankosana-Mug-Pic.jpg");
+  background-image: url("/lesotho_files/assets/Mankosana-Mug-Pic.jpg");
   }
   .cd-section:nth-of-type(6) > div {
     background-color: #f06a59;
