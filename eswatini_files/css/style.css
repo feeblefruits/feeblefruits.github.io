@@ -139,7 +139,10 @@ img {
 }
 
 .profile-text {
-  
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  padding: 3%;
 }
 
 /* CALL TO ACTION */
@@ -250,6 +253,7 @@ article::before {
   right: 0; 
   bottom: 0;
   min-width: 100%;
+  min-height: 100vh;
   width: 100%;
   height: 100%;
   object-fit: cover;

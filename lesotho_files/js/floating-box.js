@@ -1,11 +1,11 @@
 var contentList = [
-	"Moses Mdluli sits on a cushion outside. His arms crossed around his chest. He holds on tightly and coughs a couple of times. \"It's especially bad in the winter,\" he says.",
-	"His children sit on the porch and play a game of stone-toss-and-pick-up called kudoda. \"When I see them in the mornings, I\'m alive.\", Mdluli shares.",
-	"The 55-year-old former mineworker from the twon Hlatikulu in Eswatini can\’t pace or walk more than 20 metres without wheezing. He often coughs up blood in the evenings.",
-	"Silicosis or Worker\'s lung, as it\'s commonly known, made him redundant as a worker 14 years ago. \"They don't want skorokoro,\” he says talking about the South African gold mines.",
-	"These days he can\'t lift a bucket of water. The Swati man started as a helper and eventually worked his way up to a line manager. \“As soon as they see you coughing they chase you away.\"",
-	"Mdluli only has one of his lungs left and wheezes when he trudges. \“The one is fucked up,\” he says angrily.",
-	"Close to Manzini in Eswatini lives Isaac Lukhele (75) who started working in South Africa\’s gold mines in 1962."
+	"Monokoa Lepota is 61 years old from Maseru in Lesotho. He grows maize, pumpkins and, sometimes, wheat. He normally harvests between seven and eight bags of produce.",
+	"He remembers it being unbearably hot and dusty underground in the mines, they would spray underground with water every two weeks to try to get the dust to settle.",
+	"Lepota also provides for his two married sons who have moved out of the village. If he receives a payout in the settlement, he intends to buy a milling machine. This would allow him to mill the produce for the village and earn an adequate income.",
+	"Medication is expensive and — for many people living in rural areas — difficult to come by.",
+	"Mankosana Makhorolane lost her husband, Moliki, who used to work in the mines, three years ago. He was 51 years old and used to make a four-hour journey home every month to visit his wife and children, always bringing money with him.",
+	"Moliki was released from the mines in 2010, following a silicosis diagnosis. His condition began worsening three years after he stopped working, and he died in 2016.",
+	"Mankosana says Moliki was distraught that he was no longer able to work at the mine and provide for his family and that \“his lungs were no longer to carry him\”."
 	];
 
 var ts = new TwoStep({
