@@ -1,32 +1,12 @@
-
-.cd-section:first-of-type > div {
-  /*vid*/
-}
-.cd-section:nth-of-type(2) > div {
-  background-color: #2e5367;
-}
-.cd-section:nth-of-type(3) > div {
-  background-color: #2e5367;
-}
-.cd-section:nth-of-type(4) > div {
-  background-color: #fcb052;
-}
-.cd-section:nth-of-type(5) > div {
-  /*vid*/
-}
-.cd-section:nth-of-type(6) > div {
-  background-color: #f06a59;
-}
-.cd-section:nth-of-type(7) > div {
-  background-color: #f06a59;
-}
-
 [data-animation="opacity"] .cd-section > div {
+  background-color: rbga(#22283f, 0.5);
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
 }
-[data-animation="opacity"] .cd-section:first-of-type > div {}
+.cd-section:first-of-type > div {
+  background-image: url("/lesotho_files/assets/Monoka-Mug-Pic.jpg");
+}
 [data-animation="opacity"] .cd-section:nth-of-type(2) > div {
   background-image: url("/lesotho_files/assets/2-Monoka-Lepota-House.jpg");
 }
@@ -35,9 +15,6 @@
 }
 [data-animation="opacity"] .cd-section:nth-of-type(4) > div {
   background-image: url("/lesotho_files/assets/4-Monoka-Lepota-Medicine.jpg");
-}
-[data-animation="opacity"] .cd-section:nth-of-type(5) > div {
-  /*vid*/
 }
 [data-animation="opacity"] .cd-section:nth-of-type(6) > div {
   background-image: url("/lesotho_files/assets/6-Mankosana-Doc.jpg");
@@ -49,23 +26,8 @@
   .cd-section:first-of-type > div {
     background-image: url("/lesotho_files/assets/Monoka-Mug-Pic.jpg");
   }
-  .cd-section:nth-of-type(2) > div {
-    background-color: #2e5367;
-  }
-  .cd-section:nth-of-type(3) > div {
-    background-color: #fcb052;
-  }
-  .cd-section:nth-of-type(4) > div {
-    background-color: #fcb052;
-  }
   .cd-section:nth-of-type(5) > div {
     background-image: url("/lesotho_files/assets/Mankosana-Mug-Pic.jpg");
-  }
-  .cd-section:nth-of-type(6) > div {
-    background-color: #f06a59;
-  }
-  .cd-section:nth-of-type(7) > div {
-    background-color: #fcb052;
   }
 }
 

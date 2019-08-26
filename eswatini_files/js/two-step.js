@@ -220,9 +220,9 @@ var _class = function () {
             this.sticky = $(opts.stick).find('.two-step-sticky-wrapper').fixTo($(opts.stick));
             $('.two-step-sticky-wrapper').css('top','70%');
             // $('.two-step-sticky-wrapper').css('bottom','0%');
-            $('.two-step-sticky-wrapper').css('padding-left','10%');
-            $('.two-step-sticky-wrapper').css('padding-right','4%');
-            $('.two-step-sticky-wrapper').css('padding-bottom','1%');
+            //$('.two-step-sticky-wrapper').css('padding-left','10%');
+            //$('.two-step-sticky-wrapper').css('padding-right','4%');
+            //$('.two-step-sticky-wrapper').css('padding-bottom','1%');
         }
 
         this.setKeyboard();

@@ -38,7 +38,7 @@ img {
 }
 
 #scroll-map {
-  width:50%;
+  width: 50%;
   height: 100%;
 }
 
@@ -49,7 +49,7 @@ font-family: sans-serif;
 overflow-y: scroll;
 background-color: #fafafa;
 }
-section .map-paragraph{
+section .map-paragraph {
   padding:  25px 50px;
   line-height: 25px;
   border-bottom: 1px solid #ddd;
@@ -107,13 +107,15 @@ section .map-paragraph:last-child {
   background: rgba(0,0,0,.4);
   text-shadow: rgba(0,0,0,.5) 0 0 2px,rgba(0,0,0,.3) 0 0 20px;
   font-family: 'Crimson Text', serif;
-  font-size: 31px;
-  display: inline;
+  font-size: 28px;
+  display: inline-block;
   padding: 10px 1em;
   border-radius: 5px;
   position: absolute;
-  bottom: 3.5em;
-  left: 2em;
+  top: 60%;
+  left: 0;
+  right: 0;
+  margin: 0 5%;
 }
 
 
@@ -300,11 +302,14 @@ article::before {
   transition: color 200ms;
 }
 .sticky-outer {
-  position: absolute;
-  top: 20vh;
-  right: 5px;
-  bottom: 10vh;
+  position: sticky;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  width: auto;
+  margin: 0 auto;
   z-index: 1;
+  width: 100%;
 }
 
 .floating-box {
@@ -316,16 +321,9 @@ article::before {
   font-size: 16px;
   font-weight: lighter;
   padding: 2em;
-  width: 600px;
   -webkit-box-shadow: 0 0 15px 5px rgba(0,0,0,.75);
   -moz-box-shadow: 0 0 15px 5px rgba(0,0,0,.75);
   box-shadow: 0 0 15px 5px rgba(0,0,0,.75);
-}
-
-@media screen and (min-width: 768px) {
-    .floating-box {
-        width: auto;
-    }
 }
 
 .floating-box p {
@@ -335,14 +333,34 @@ article::before {
   text-transform: capitalize;
 }
 
-@media only screen and (max-width: 1050px) {
+
+@media screen and (min-width: 768px) {
+  .two-step-sticky-wrapper {
+    padding: 0 4% 1% 10%;
+  }
   .sticky-outer {
     position: absolute;
-    width: 100%;
     top: 20vh;
-    left: 0;
-    z-index: 1;
+    left: auto;
+    right: 5px;
+    bottom: 10vh;
+    width: 700px;
+    margin: 0 5%;
   }
+  .floating-box {
+    width: 600px;
+  }
+  .profile-text {
+    display: inline;
+    bottom: 3.5em;
+    margin: 0;
+    left: 2em;
+    right: auto;
+    top: auto;
+  }
+}
+
+@media only screen and (max-width: 1050px) {
   #video-background {
     display: none;
   }
@@ -352,7 +370,6 @@ article::before {
     object-fit: cover;
     border-radius:50%;
   }
-
 }
 
 @media only screen and (min-width: 1050px) {
@@ -375,7 +392,6 @@ article::before {
   [data-hijacking="off"] .cd-section > div {
     opacity: 0;
   }
-
   [data-animation="opacity"] .cd-section.visible > div {
     z-index: 1;
   }
