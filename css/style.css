@@ -305,11 +305,11 @@ article::before {
   position: sticky;
   left: 0;
   right: 0;
-  bottom: 0;
+  bottom: 40px;
   width: auto;
   margin: 0 auto;
   z-index: 1;
-  width: 100%;
+  width: 80%;
 }
 
 .floating-box {
