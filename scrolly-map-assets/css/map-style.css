@@ -12,10 +12,13 @@ overflow-y: scroll;
 background-color: transparent;
 width: 90%;
 margin: 0 auto;
-  @media only screen and (min-width: 768px) {
+}
+
+@media only screen and (min-width: 768px) {
+#features {
     width: 50%;
     margin: 0;
-  }
+    }
 }
 
 .scroll-notification {
