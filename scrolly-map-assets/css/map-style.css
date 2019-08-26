@@ -6,7 +6,6 @@ position: fixed;
 width:100%;
 }
 #features {
-margin-left: 50%;
 font-family: sans-serif;
 overflow-y: scroll;
 background-color: transparent;
@@ -15,9 +14,9 @@ margin: 0 auto;
 }
 
 @media screen and (min-width: 768px) {
-#features {
-    width: 50%;
-    margin: 0;
+    #features {
+        width: 50%;
+        margin-left: 50%;
     }
 }
 
