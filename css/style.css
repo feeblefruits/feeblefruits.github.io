@@ -332,7 +332,16 @@ article::before {
   font-size: 18px;
   text-transform: capitalize;
 }
-
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+  .sticky-outer {
+    position: fixed;
+  }
+}
+@media screen and (-webkit-min-device-pixel-ratio:0) and (min-width: 768px) {
+  .sticky-outer {
+    position: fixed;
+  }
+}
 
 @media screen and (min-width: 768px) {
   .two-step-sticky-wrapper {
