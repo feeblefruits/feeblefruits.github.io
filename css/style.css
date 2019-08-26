@@ -302,7 +302,7 @@ article::before {
 .sticky-outer {
   position: absolute;
   top: 20vh;
-  right: 3.5em;
+  right: 5px;
   bottom: 10vh;
   z-index: 1;
 }
@@ -313,7 +313,7 @@ article::before {
   border-bottom-right-radius: 5px;
   color: #22283f;
   text-align: left;
-  font-size: 17px;
+  font-size: 16px;
   font-weight: lighter;
   padding: 2em;
   width: 600px;

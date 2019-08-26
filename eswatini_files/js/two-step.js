@@ -221,7 +221,7 @@ var _class = function () {
             $('.two-step-sticky-wrapper').css('top','70%');
             // $('.two-step-sticky-wrapper').css('bottom','0%');
             $('.two-step-sticky-wrapper').css('padding-left','10%');
-            $('.two-step-sticky-wrapper').css('padding-right','10%');
+            $('.two-step-sticky-wrapper').css('padding-right','4%');
             $('.two-step-sticky-wrapper').css('padding-bottom','1%');
         }
 
