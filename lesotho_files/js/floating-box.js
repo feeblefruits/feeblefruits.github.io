@@ -1,5 +1,5 @@
 var contentList = [
-	"<p>Monokoa Lepota</p> is 61 years old from Maseru in Lesotho. He grows maize, pumpkins and, sometimes, wheat. He normally harvests between seven and eight bags of produce.",
+	"<p>Monokoa Lepota</p> is 61 years old from Maseru in Lesotho. He grows maize, pumpkins and, sometimes, wheat. He normally harvests between seven and eight bags of produce. <p>Scroll to read about his story</p>.",
 	"He remembers it being unbearably hot and dusty underground in the mines, they would spray underground with water every two weeks to try to get the dust to settle.",
 	"<p>Lepota</p> also provides for his two married sons who have moved out of the village. If he receives a payout in the settlement, he intends to buy a milling machine. This would allow him to mill the produce for the village and earn an adequate income.",
 	"Medication is expensive and — for many people living in rural areas — difficult to come by.",

@@ -1,5 +1,5 @@
 var contentList = [
-    "Tens of thousands of former mineworkers and their families survive today; many are sickly and live in remote, rural areas across Southern Africa.",
+    "Tens of thousands of former mineworkers and their families survive today; many are sickly and live in remote, rural areas across Southern Africa. <p>Scroll down here to read about their stories</p>.",
   	"One of them is <p>Moses Mdluli</p>. It\’s a hot winter\’s day and the mountains of Eswatini sprawl out in front of him. With his arms crossed over his chest, he holds on tightly and coughs painfully. \“It\’s especially bad in the winter,\” he says.",
     "His children sit on the porch and play a game of stone-toss-and-pick-up called kudoda. \"When I see them in the mornings, I\’m alive,\” <p>Mdluli</p> says.",
   	"The mountain air is fresh but the 55-year-old former mineworker from the town of Hlathikhulu can\’t walk more than 20m without wheezing. In the evenings he coughs up blood and often has to catch his breath mid-sentence.",
