@@ -6,11 +6,18 @@ position: fixed;
 width:100%;
 }
 #features {
-width: 50%;
-margin-left: 50%;
 font-family: sans-serif;
 overflow-y: scroll;
 background-color: transparent;
+width: 90%;
+margin: 0 auto;
+}
+
+@media screen and (min-width: 768px) {
+    #features {
+        width: 50%;
+        margin-left: 50%;
+    }
 }
 
 .scroll-notification {
@@ -26,6 +33,7 @@ padding-left: 5%;
 padding-right: 5%;
 line-height: 25px;
 opacity: 0.99;
+
 }
 
 .map-chapter.active {
@@ -39,7 +47,7 @@ margin-bottom: 200px;
 p {
     padding: 20px;
     text-align: left;
-    font-size: 15px;
+    font-size: 17px;
     line-height: 140%;
     color: black;
     background-color: #ffffff;
