@@ -1,39 +1,4 @@
 
-/*HEADER STYLE*/
-/**/
-
-@import url('https://fonts.googleapis.com/css?family=Crimson+Text&display=swap');
-@import url('https://fonts.googleapis.com/css?family=Lato&display=swap');
-
-html {
-  background-color: #000;
-  font-family: Helvetica, Arial, sans-serif;
-}
-
-html, body {
-  background-color: #081118;
-  font-family: 'Lato', sans-serif;
-  font-size: 18px;
-  line-height: 1.5;
-  margin: 0 auto;
-  height: auto;
-  scroll-behavior: smooth;
-  width: 100%;
-}
-
-h1, h2, h3, h4, h5, h6, p {
-  margin: 0;
-}
-
-label {
-  display: inline-block;
-}
-
-img {
-  height: auto;
-  width: 100%;
-}
-
 /* TYPOGRAPHY */
 .heading__hero {
   display: inline-block;
@@ -146,11 +111,6 @@ img {
 }
 
 /* CALL TO ACTION */
-
-  * {
-    box-sizing: border-box;
-  }
-
   .id-carousel-wrapper {
     background: white;
     position: relative;
@@ -173,29 +133,29 @@ img {
     position: absolute;
     top: 50%;
     width: 800px;
-    height: 200px; 
+    height: 200px;
     left: 50%;
     margin-left: -400px;
     margin-top: -130px;
   }
- 
+
   ul > li {
     width: 25%;
     list-style-type: none;
     position: absolute;
     top: 20%;
     padding: 20px;
-    height: 200px; 
+    height: 200px;
     opacity: 0;
     padding-top: 40px;
     text-align: center;
-    transition: 1s opacity; 
+    transition: 1s opacity;
   }
 
   .active {
     opacity: 1;
   }
-  
+
 /*SCROLL STYLE*/
 
 article {
@@ -250,7 +210,7 @@ article::before {
 
 #video-background {
 
-  right: 0; 
+  right: 0;
   bottom: 0;
   min-width: 100%;
   min-height: 100vh;
@@ -472,7 +432,7 @@ article::before {
   [data-hijacking="off"] .cd-section > div {
     opacity: 0;
   }
- 
+
   [data-animation="opacity"] .cd-section.visible > div {
     z-index: 1;
   }
@@ -489,5 +449,5 @@ article::before {
     top: 0;
     left: 0;
     width: 100%;
-    
+
   }
