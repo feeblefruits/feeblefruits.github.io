@@ -14,7 +14,7 @@ width: 90%;
 margin: 0 auto;
 }
 
-@media only screen and (min-width: 768px) {
+@media screen and (min-width: 768px) {
 #features {
     width: 50%;
     margin: 0;
